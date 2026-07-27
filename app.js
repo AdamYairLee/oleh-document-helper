@@ -9,6 +9,7 @@ let translations = {};
 const requestedLanguage = new URLSearchParams(location.search).get("lang");
 let language = SUPPORTED_LANGUAGES.includes(requestedLanguage)
   ? requestedLanguage
+  : "en";
   : (localStorage.getItem(LANGUAGE_KEY) || detectLanguage());
 let activeCategory = "all";
 let searchTerm = "";
