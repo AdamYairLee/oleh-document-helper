@@ -1,19 +1,22 @@
-Oleh Document Helper v0.2 update
+Oleh Document Helper v0.3 content expansion
 
-Replace the matching files in the GitHub repository root with these files:
-
+Upload and replace these files in the GitHub repository root:
 - index.html
 - app.js
 - app.css
 - sw.js
 - data/procedures.json
 
-New features:
-- French direct link support with ?lang=fr
-- Share button
-- Share individual procedure guides
-- Print / Save as PDF
-- Copy checklist
-- Three-step How It Works section
-- Localized labels in English, Hebrew, French, and Korean
-- Updated service-worker cache version
+Commit message:
+Expand procedure library and add 90-day checklist
+
+What changes:
+- 18 multilingual procedure guides
+- First 90 days progress checklist stored locally
+- 8 procedure categories
+- Richer details: timing, cost, application channel, common mistakes, and after-completion checks
+- Mark complete / undo completion
+- Search now covers all richer fields
+- PWA cache version updated to v3
+
+UPLOAD-INSTRUCTIONS.txt is for reference only and does not need to be uploaded.

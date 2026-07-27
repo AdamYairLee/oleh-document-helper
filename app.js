@@ -2,6 +2,7 @@ const SUPPORTED_LANGUAGES = ["en", "he", "fr", "ko"];
 const RTL_LANGUAGES = new Set(["he"]);
 const FAVORITES_KEY = "odh-favorites";
 const LANGUAGE_KEY = "odh-language";
+const COMPLETED_KEY = "odh-completed";
 
 let procedures = [];
 let translations = {};
@@ -34,7 +35,10 @@ const els = {
   demoResult: document.querySelector("#demoResult"),
   detail: document.querySelector("#procedureDetail"),
   backButton: document.querySelector("#backButton"),
-  toast: document.querySelector("#toast")
+  toast: document.querySelector("#toast"),
+  journeyGrid: document.querySelector("#journeyGrid"),
+  journeyProgressText: document.querySelector("#journeyProgressText"),
+  journeyProgressBar: document.querySelector("#journeyProgressBar")
 };
 
 boot();
@@ -86,6 +90,7 @@ function setLanguage(nextLanguage) {
   renderFeatured();
   renderProcedures();
   renderFavorites();
+  renderJourney();
   route(false);
 }
 
@@ -127,7 +132,7 @@ function bindEvents() {
 }
 
 function renderCategoryFilters() {
-  const categories = ["all", "aliyah", "identity", "health", "employment"];
+  const categories = ["all", "aliyah", "identity", "health", "family", "employment", "tax", "transport", "education"];
   els.categoryFilters.innerHTML = "";
   categories.forEach(category => {
     const button = document.createElement("button");
@@ -150,8 +155,8 @@ function localized(procedure) {
 function searchableText(procedure) {
   const item = localized(procedure);
   return [
-    item.title, item.summary, item.notes,
-    ...(item.who || []), ...(item.documents || []), ...(item.steps || []),
+    item.title, item.summary, item.notes, item.timing, item.cost, item.channel, item.after,
+    ...(item.who || []), ...(item.documents || []), ...(item.steps || []), ...(item.mistakes || []),
     procedure.agency[language] || procedure.agency.en,
     t(procedure.category)
   ].join(" ").toLocaleLowerCase(language);
@@ -192,7 +197,7 @@ function createProcedureCard(procedure) {
   card.querySelector(".card-summary").textContent = item.summary;
   card.querySelector(".agency-name").textContent = procedure.agency[language] || procedure.agency.en;
   const stepCount = item.steps?.length || 0;
-  card.querySelector(".steps-count").textContent = `${stepCount} ${stepCount === 1 ? t("step") : t("steps")}`;
+  card.querySelector(".steps-count").textContent = `${t(procedure.stage || "whenNeeded")} · ${stepCount} ${stepCount === 1 ? t("step") : t("steps")}`;
   card.querySelector(".card-link").href = `#procedure/${procedure.id}`;
   card.querySelector(".card-link span").textContent = t("openGuide");
 
@@ -212,6 +217,65 @@ function getFavorites() {
   } catch {
     return [];
   }
+}
+
+function getCompleted() {
+  try {
+    const value = JSON.parse(localStorage.getItem(COMPLETED_KEY) || "[]");
+    return Array.isArray(value) ? value : [];
+  } catch {
+    return [];
+  }
+}
+
+function isCompleted(id) {
+  return getCompleted().includes(id);
+}
+
+function toggleComplete(id) {
+  const completed = getCompleted();
+  const next = completed.includes(id)
+    ? completed.filter(item => item !== id)
+    : [...completed, id];
+  localStorage.setItem(COMPLETED_KEY, JSON.stringify(next));
+  renderJourney();
+  const currentId = location.hash.startsWith("#procedure/") ? decodeURIComponent(location.hash.split("/")[1] || "") : "";
+  if (currentId === id) {
+    const procedure = procedures.find(item => item.id === id);
+    if (procedure) renderDetail(procedure);
+  }
+}
+
+function renderJourney() {
+  if (!els.journeyGrid || !procedures.length) return;
+  const journeyProcedures = procedures.filter(item => item.stage === "firstDays" || item.stage === "firstMonth");
+  const completed = getCompleted();
+  els.journeyGrid.innerHTML = "";
+
+  journeyProcedures.forEach(procedure => {
+    const item = localized(procedure);
+    const done = completed.includes(procedure.id);
+    const card = document.createElement("article");
+    card.className = `journey-card ${done ? "completed" : ""}`;
+    card.innerHTML = `
+      <button class="journey-check" type="button" aria-label="${escapeAttribute(done ? t("markNotDone") : t("markDone"))}">
+        ${done ? "✓" : ""}
+      </button>
+      <div class="journey-content">
+        <div class="journey-topline">
+          <span class="category-badge">${escapeHtml(t(procedure.stage))}</span>
+          <span class="priority-label">${escapeHtml(t(procedure.priority === "high" ? "priorityHigh" : "priorityMedium"))}</span>
+        </div>
+        <h3><a href="#procedure/${escapeAttribute(procedure.id)}">${escapeHtml(item.title)}</a></h3>
+        <p>${escapeHtml(item.summary)}</p>
+      </div>`;
+    card.querySelector(".journey-check").addEventListener("click", () => toggleComplete(procedure.id));
+    els.journeyGrid.append(card);
+  });
+
+  const doneCount = journeyProcedures.filter(item => completed.includes(item.id)).length;
+  els.journeyProgressText.textContent = `${doneCount} / ${journeyProcedures.length} ${t("completed")}`;
+  els.journeyProgressBar.style.width = journeyProcedures.length ? `${Math.round(doneCount / journeyProcedures.length * 100)}%` : "0%";
 }
 
 function toggleFavorite(id) {
@@ -236,10 +300,14 @@ function renderDetail(procedure) {
   const item = localized(procedure);
   const agency = procedure.agency[language] || procedure.agency.en;
   const date = new Intl.DateTimeFormat(language, {dateStyle: "medium"}).format(new Date(`${procedure.updatedAt}T12:00:00`));
+  const done = isCompleted(procedure.id);
 
   els.detail.innerHTML = `
     <header class="detail-header">
-      <span class="category-badge">${escapeHtml(t(procedure.category))}</span>
+      <div class="detail-labels">
+        <span class="category-badge">${escapeHtml(t(procedure.category))}</span>
+        <span class="stage-badge">${escapeHtml(t(procedure.stage || "whenNeeded"))}</span>
+      </div>
       <h1>${escapeHtml(item.title)}</h1>
       <p class="detail-summary">${escapeHtml(item.summary)}</p>
       <div class="detail-meta">
@@ -247,7 +315,13 @@ function renderDetail(procedure) {
         <span class="meta-pill">${item.steps.length} ${escapeHtml(item.steps.length === 1 ? t("step") : t("steps"))}</span>
         <span class="meta-pill">${escapeHtml(t("lastChecked"))}: ${escapeHtml(date)}</span>
       </div>
+      <div class="quick-facts">
+        <div><span>${escapeHtml(t("timing"))}</span><strong>${escapeHtml(item.timing || "")}</strong></div>
+        <div><span>${escapeHtml(t("cost"))}</span><strong>${escapeHtml(item.cost || "")}</strong></div>
+        <div><span>${escapeHtml(t("channel"))}</span><strong>${escapeHtml(item.channel || "")}</strong></div>
+      </div>
       <div class="detail-actions" aria-label="Guide actions">
+        <button id="completeGuideButton" class="button ${done ? "button-complete" : "button-primary"}" type="button">${escapeHtml(done ? t("markNotDone") : t("markDone"))}</button>
         <button id="printGuideButton" class="button button-secondary" type="button">${escapeHtml(t("printGuide"))}</button>
         <button id="copyChecklistButton" class="button button-secondary" type="button">${escapeHtml(t("copyChecklist"))}</button>
         <button id="shareGuideButton" class="button button-ghost" type="button">${escapeHtml(t("shareGuide"))}</button>
@@ -267,6 +341,16 @@ function renderDetail(procedure) {
           <h2>${escapeHtml(t("procedureSteps"))}</h2>
           <ol class="step-list">${item.steps.map(value => `<li><span>${escapeHtml(value)}</span></li>`).join("")}</ol>
         </section>
+        ${item.mistakes?.length ? `
+        <section class="detail-section">
+          <h2>${escapeHtml(t("commonMistakes"))}</h2>
+          <ul class="warning-list">${item.mistakes.map(value => `<li>${escapeHtml(value)}</li>`).join("")}</ul>
+        </section>` : ""}
+        ${item.after ? `
+        <section class="detail-section">
+          <h2>${escapeHtml(t("afterCompletion"))}</h2>
+          <div class="after-box">${escapeHtml(item.after)}</div>
+        </section>` : ""}
       </div>
       <aside>
         <section class="detail-section">
@@ -279,10 +363,12 @@ function renderDetail(procedure) {
           <a href="${escapeAttribute(procedure.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t("openOfficial"))} ↗</a>
           <p class="updated">${escapeHtml(t("lastChecked"))}: ${escapeHtml(date)}</p>
         </section>
+        <div class="document-tip">${escapeHtml(t("documentTip"))}</div>
       </aside>
     </div>
   `;
 
+  document.querySelector("#completeGuideButton")?.addEventListener("click", () => toggleComplete(procedure.id));
   document.querySelector("#printGuideButton")?.addEventListener("click", () => window.print());
   document.querySelector("#copyChecklistButton")?.addEventListener("click", () => copyChecklist(procedure));
   document.querySelector("#shareGuideButton")?.addEventListener("click", () => shareCurrentPage(procedure));
@@ -295,11 +381,20 @@ async function copyChecklist(procedure) {
     item.title,
     `${t("authority")}: ${agency}`,
     "",
+    `${t("timing")}: ${item.timing || ""}`,
+    `${t("cost")}: ${item.cost || ""}`,
+    `${t("channel")}: ${item.channel || ""}`,
+    "",
     t("documentsNeeded"),
     ...item.documents.map(value => `□ ${value}`),
     "",
     t("procedureSteps"),
     ...item.steps.map((value, index) => `${index + 1}. ${value}`),
+    "",
+    t("commonMistakes"),
+    ...(item.mistakes || []).map(value => `• ${value}`),
+    "",
+    `${t("afterCompletion")}: ${item.after || ""}`,
     "",
     `${t("officialReference")}: ${procedure.source}`
   ].join("\n");

@@ -265,3 +265,75 @@ html[dir="rtl"] .card-link { direction: rtl; }
   .detail-grid { grid-template-columns: 1fr !important; }
   a { color: #000 !important; text-decoration: underline; }
 }
+
+
+/* v0.3 richer procedure library and first-90-days planner */
+.section-intro { max-width: 760px; color: var(--muted); line-height: 1.65; margin-bottom: 0; }
+.progress-panel {
+  display: grid; grid-template-columns: minmax(220px, .35fr) 1fr; gap: 20px;
+  align-items: center; padding: 20px; margin-bottom: 18px; border: 1px solid var(--border);
+  border-radius: 18px; background: var(--surface);
+}
+.progress-copy { display: grid; gap: 4px; }
+.progress-copy strong { font-size: 1.15rem; }
+.progress-copy span { color: var(--muted); font-size: .86rem; }
+.progress-track { height: 12px; background: #dfe9ed; border-radius: 999px; overflow: hidden; }
+.progress-track span { display: block; height: 100%; width: 0; background: var(--success); border-radius: inherit; transition: width .25s ease; }
+
+.journey-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.journey-card {
+  display: grid; grid-template-columns: 44px 1fr; gap: 14px; align-items: start;
+  padding: 18px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 17px; box-shadow: 0 5px 18px rgba(11,79,108,.04);
+}
+.journey-card.completed { background: #f0f7f2; border-color: #b9dac4; }
+.journey-check {
+  width: 40px; height: 40px; border: 2px solid #9cb7c2; border-radius: 13px;
+  background: white; color: white; cursor: pointer; font-weight: 900; font-size: 1.2rem;
+}
+.journey-card.completed .journey-check { background: var(--success); border-color: var(--success); }
+.journey-topline { display: flex; justify-content: space-between; gap: 10px; align-items: center; }
+.priority-label { color: var(--muted); font-size: .76rem; font-weight: 750; }
+.journey-card h3 { margin: 10px 0 7px; font-size: 1.05rem; }
+.journey-card h3 a { text-decoration: none; }
+.journey-card p { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.5; }
+
+.detail-labels { display: flex; flex-wrap: wrap; gap: 8px; }
+.stage-badge {
+  display: inline-flex; align-items: center; min-height: 28px; padding: 0 10px;
+  border-radius: 999px; background: #fff5df; color: var(--warning);
+  font-size: .78rem; font-weight: 800;
+}
+.quick-facts {
+  display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 12px;
+  margin-top: 22px;
+}
+.quick-facts div {
+  padding: 15px; background: var(--surface-soft); border-radius: 14px;
+  border: 1px solid #dce8ec;
+}
+.quick-facts span { display: block; color: var(--muted); font-size: .78rem; font-weight: 750; margin-bottom: 7px; }
+.quick-facts strong { display: block; line-height: 1.45; font-size: .94rem; }
+.button-complete { background: var(--success); color: white; }
+.warning-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.warning-list li {
+  padding: 13px 15px; border-radius: 13px; background: #fff6e6;
+  border-inline-start: 4px solid var(--accent); line-height: 1.55;
+}
+.after-box {
+  padding: 16px; border-radius: 13px; background: #eef7f2; color: #285e48;
+  line-height: 1.65; border: 1px solid #cce3d5;
+}
+.document-tip {
+  padding: 15px; border-radius: 13px; background: #eef5f8; color: var(--primary);
+  line-height: 1.55; font-weight: 700; font-size: .9rem;
+}
+
+@media (max-width: 900px) {
+  .quick-facts { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .progress-panel { grid-template-columns: 1fr; }
+  .journey-grid { grid-template-columns: 1fr; }
+  .journey-card { grid-template-columns: 40px 1fr; padding: 15px; }
+}

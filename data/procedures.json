@@ -14,7 +14,7 @@
       "browseProcedures": "Browse procedures",
       "analyzeDocument": "Analyze a document",
       "languages": "languages",
-      "verifiedCards": "starter cards",
+      "verifiedCards": "practical guides",
       "officialSources": "official-source links",
       "startHere": "Start here",
       "popularProcedures": "Important first procedures",
@@ -93,7 +93,31 @@
       "checklistCopied": "Checklist copied",
       "linkCopied": "Link copied",
       "copyFailed": "Could not copy. Please copy the address manually.",
-      "shareDescription": "A multilingual guide to Israeli public administration for new immigrants and returning residents."
+      "shareDescription": "A multilingual guide to Israeli public administration for new immigrants and returning residents.",
+      "first90Eyebrow": "Your first 90 days",
+      "first90Title": "A practical settlement checklist",
+      "first90Text": "Save your progress on this device. Open any task for documents, steps, costs, timing, and the official service.",
+      "completed": "completed",
+      "markDone": "Mark complete",
+      "markNotDone": "Mark incomplete",
+      "timing": "When to do it",
+      "cost": "Cost",
+      "channel": "How to apply",
+      "afterCompletion": "After completion",
+      "commonMistakes": "Common mistakes",
+      "priorityHigh": "High priority",
+      "priorityMedium": "Medium priority",
+      "firstDays": "First days",
+      "firstMonth": "First month",
+      "whenNeeded": "When needed",
+      "family": "Family",
+      "tax": "Tax",
+      "transport": "Transport",
+      "education": "Education",
+      "guideCount": "practical guides",
+      "progressSaved": "Progress is saved only on this device.",
+      "officialTool": "Official tool",
+      "documentTip": "Keep screenshots or confirmations after every online submission."
     },
     "he": {
       "brandTagline": "מינהל ישראלי, בצורה ברורה יותר",
@@ -109,7 +133,7 @@
       "browseProcedures": "עיון בהליכים",
       "analyzeDocument": "ניתוח מסמך",
       "languages": "שפות",
-      "verifiedCards": "כרטיסי התחלה",
+      "verifiedCards": "מדריכים מעשיים",
       "officialSources": "קישורים למקורות רשמיים",
       "startHere": "מתחילים כאן",
       "popularProcedures": "הליכים ראשונים חשובים",
@@ -188,7 +212,31 @@
       "checklistCopied": "רשימת הבדיקה הועתקה",
       "linkCopied": "הקישור הועתק",
       "copyFailed": "לא ניתן היה להעתיק. העתיקו את הכתובת ידנית.",
-      "shareDescription": "מדריך רב־לשוני למינהל הציבורי בישראל עבור עולים חדשים ותושבים חוזרים."
+      "shareDescription": "מדריך רב־לשוני למינהל הציבורי בישראל עבור עולים חדשים ותושבים חוזרים.",
+      "first90Eyebrow": "90 הימים הראשונים",
+      "first90Title": "רשימת משימות מעשית לקליטה",
+      "first90Text": "ההתקדמות נשמרת במכשיר זה. פתחו משימה כדי לראות מסמכים, שלבים, עלויות, זמנים וקישור רשמי.",
+      "completed": "הושלמו",
+      "markDone": "סימון כהושלם",
+      "markNotDone": "ביטול סימון",
+      "timing": "מתי לבצע",
+      "cost": "עלות",
+      "channel": "אופן הגשה",
+      "afterCompletion": "לאחר השלמת ההליך",
+      "commonMistakes": "טעויות נפוצות",
+      "priorityHigh": "עדיפות גבוהה",
+      "priorityMedium": "עדיפות בינונית",
+      "firstDays": "הימים הראשונים",
+      "firstMonth": "החודש הראשון",
+      "whenNeeded": "לפי הצורך",
+      "family": "משפחה",
+      "tax": "מסים",
+      "transport": "תחבורה",
+      "education": "חינוך",
+      "guideCount": "מדריכים מעשיים",
+      "progressSaved": "ההתקדמות נשמרת במכשיר זה בלבד.",
+      "officialTool": "כלי רשמי",
+      "documentTip": "שמרו צילום מסך או אישור לאחר כל הגשה מקוונת."
     },
     "fr": {
       "brandTagline": "L’administration israélienne, plus claire",
@@ -204,7 +252,7 @@
       "browseProcedures": "Voir les démarches",
       "analyzeDocument": "Analyser un document",
       "languages": "langues",
-      "verifiedCards": "fiches initiales",
+      "verifiedCards": "fiches pratiques",
       "officialSources": "liens officiels",
       "startHere": "Commencer ici",
       "popularProcedures": "Premières démarches importantes",
@@ -283,7 +331,31 @@
       "checklistCopied": "Liste copiée",
       "linkCopied": "Lien copié",
       "copyFailed": "Impossible de copier. Copiez l’adresse manuellement.",
-      "shareDescription": "Un guide multilingue de l’administration israélienne pour les nouveaux immigrants et les résidents de retour."
+      "shareDescription": "Un guide multilingue de l’administration israélienne pour les nouveaux immigrants et les résidents de retour.",
+      "first90Eyebrow": "Vos 90 premiers jours",
+      "first90Title": "Une liste pratique pour votre installation",
+      "first90Text": "Votre progression reste enregistrée sur cet appareil. Ouvrez une tâche pour voir les pièces, étapes, coûts, délais et le service officiel.",
+      "completed": "terminées",
+      "markDone": "Marquer comme terminé",
+      "markNotDone": "Marquer comme non terminé",
+      "timing": "Quand le faire",
+      "cost": "Coût",
+      "channel": "Mode de demande",
+      "afterCompletion": "Après la démarche",
+      "commonMistakes": "Erreurs fréquentes",
+      "priorityHigh": "Priorité élevée",
+      "priorityMedium": "Priorité moyenne",
+      "firstDays": "Premiers jours",
+      "firstMonth": "Premier mois",
+      "whenNeeded": "Selon les besoins",
+      "family": "Famille",
+      "tax": "Fiscalité",
+      "transport": "Transport",
+      "education": "Éducation",
+      "guideCount": "fiches pratiques",
+      "progressSaved": "La progression est enregistrée uniquement sur cet appareil.",
+      "officialTool": "Outil officiel",
+      "documentTip": "Conservez une capture d’écran ou un accusé après chaque envoi en ligne."
     },
     "ko": {
       "brandTagline": "이스라엘 행정을 더 명확하게",
@@ -299,7 +371,7 @@
       "browseProcedures": "행정 절차 보기",
       "analyzeDocument": "문서 분석하기",
       "languages": "지원 언어",
-      "verifiedCards": "초기 안내 카드",
+      "verifiedCards": "실용 안내카드",
       "officialSources": "공식 출처 링크",
       "startHere": "여기서 시작하세요",
       "popularProcedures": "중요한 초기 행정 절차",
@@ -378,7 +450,31 @@
       "checklistCopied": "체크리스트를 복사했습니다",
       "linkCopied": "링크를 복사했습니다",
       "copyFailed": "복사하지 못했습니다. 주소를 직접 복사해 주세요.",
-      "shareDescription": "신규 올레와 귀환 주민을 위한 이스라엘 공공행정 다국어 안내 서비스입니다."
+      "shareDescription": "신규 올레와 귀환 주민을 위한 이스라엘 공공행정 다국어 안내 서비스입니다.",
+      "first90Eyebrow": "이스라엘 정착 첫 90일",
+      "first90Title": "실제로 따라갈 수 있는 정착 체크리스트",
+      "first90Text": "진행 상태는 현재 기기에만 저장됩니다. 각 항목을 열어 준비서류, 처리순서, 비용, 시기와 공식 서비스를 확인하세요.",
+      "completed": "완료",
+      "markDone": "완료로 표시",
+      "markNotDone": "완료 표시 취소",
+      "timing": "처리 시기",
+      "cost": "비용",
+      "channel": "처리 방법",
+      "afterCompletion": "처리 후 확인",
+      "commonMistakes": "자주 생기는 실수",
+      "priorityHigh": "우선순위 높음",
+      "priorityMedium": "우선순위 보통",
+      "firstDays": "도착 직후",
+      "firstMonth": "첫 한 달",
+      "whenNeeded": "필요할 때",
+      "family": "가족",
+      "tax": "세금",
+      "transport": "교통",
+      "education": "교육",
+      "guideCount": "실용 안내카드",
+      "progressSaved": "진행 상태는 이 기기에만 저장됩니다.",
+      "officialTool": "공식 도구",
+      "documentTip": "온라인 제출 뒤에는 접수 화면이나 확인서를 반드시 저장하세요."
     }
   },
   "procedures": [
@@ -410,7 +506,15 @@
             "Complete the one-time National Identification System registration.",
             "Enter the personal area and check payments, documents, messages, and appointments."
           ],
-          "notes": "The official personal account is marked as a beta service. Available functions can change."
+          "notes": "The official personal account is marked as beta. Some actions may still require an adviser or branch visit.",
+          "timing": "As soon as you have the required identity-verification details.",
+          "cost": "Free.",
+          "channel": "Online through the National Identification System; an absorption counselor can help with first registration.",
+          "after": "Check the inbox, payment history, certificates, appointments, and uploaded documents.",
+          "mistakes": [
+            "Using a different spelling of your name than in official records.",
+            "Uploading documents without keeping a submission confirmation."
+          ]
         },
         "he": {
           "title": "פתיחת האזור האישי לעולים חדשים",
@@ -428,7 +532,15 @@
             "השלימו הרשמה חד-פעמית למערכת ההזדהות הלאומית.",
             "בדקו תשלומים, מסמכים, הודעות ותורים באזור האישי."
           ],
-          "notes": "האזור האישי מוגדר באתר הרשמי כשירות בטא, והאפשרויות עשויות להשתנות."
+          "notes": "האזור האישי מוגדר כשירות בטא. חלק מהפעולות עדיין עשויות לדרוש יועץ או ביקור בסניף.",
+          "timing": "ברגע שיש בידיכם פרטי הזיהוי הנדרשים.",
+          "cost": "ללא עלות.",
+          "channel": "באינטרנט באמצעות מערכת ההזדהות הלאומית; יועץ קליטה יכול לסייע בהרשמה הראשונה.",
+          "after": "בדקו את תיבת הדואר, התשלומים, האישורים, התורים והמסמכים שהועלו.",
+          "mistakes": [
+            "שימוש באיות שונה מהאיות ברשומות הרשמיות.",
+            "שליחת מסמכים בלי לשמור אישור הגשה."
+          ]
         },
         "fr": {
           "title": "Ouvrir l’espace personnel des nouveaux immigrants",
@@ -446,7 +558,15 @@
             "Effectuez l’inscription unique au système national d’identification.",
             "Consultez paiements, documents, messages et rendez-vous."
           ],
-          "notes": "Le portail officiel indique que l’espace personnel est encore en version bêta."
+          "notes": "L’espace personnel est encore indiqué comme service bêta. Certaines démarches peuvent nécessiter un conseiller ou une visite.",
+          "timing": "Dès que vous disposez des éléments nécessaires à l’identification.",
+          "cost": "Gratuit.",
+          "channel": "En ligne via le système national d’identification; un conseiller peut aider lors de la première inscription.",
+          "after": "Vérifiez la messagerie, les paiements, attestations, rendez-vous et documents envoyés.",
+          "mistakes": [
+            "Utiliser une orthographe du nom différente de celle des registres officiels.",
+            "Envoyer des documents sans conserver l’accusé de réception."
+          ]
         },
         "ko": {
           "title": "올림 개인계정 개설하기",
@@ -464,9 +584,19 @@
             "국가 신원확인 시스템에 1회 등록합니다.",
             "계정에서 지급내역, 문서, 메시지와 예약을 확인합니다."
           ],
-          "notes": "공식 페이지는 개인계정을 베타 서비스로 표시하고 있으며 제공 기능이 달라질 수 있습니다."
+          "notes": "공식 개인계정은 베타 서비스입니다. 일부 업무는 상담사나 지점 방문이 필요할 수 있습니다.",
+          "timing": "신원확인에 필요한 정보가 준비되는 즉시.",
+          "cost": "무료.",
+          "channel": "국가 신원확인 시스템을 통한 온라인 처리. 첫 등록은 흡수 상담사의 도움을 받을 수 있습니다.",
+          "after": "메시지함, 지급내역, 증명서, 예약과 제출 문서를 확인합니다.",
+          "mistakes": [
+            "공식 기록과 다른 이름 철자를 사용하는 것.",
+            "제출 확인을 저장하지 않고 문서를 전송하는 것."
+          ]
         }
-      }
+      },
+      "stage": "firstDays",
+      "priority": "high"
     },
     {
       "id": "absorption-basket",
@@ -497,7 +627,15 @@
             "Provide the bank-account details through the ministry’s approved channel.",
             "Check actual payments and personal eligibility in the official personal account."
           ],
-          "notes": "Payment amount and eligibility depend on personal circumstances. Use the official calculator only as an estimate."
+          "notes": "Amounts and payment dates depend on family composition, status, arrival date, and official eligibility.",
+          "timing": "Immediately after arrival and during the first six months, according to personal eligibility.",
+          "cost": "No application fee.",
+          "channel": "Initial handling at the airport; later bank details and inquiries through the Ministry account or adviser.",
+          "after": "Confirm that the bank account is registered correctly and compare expected and actual payments.",
+          "mistakes": [
+            "Assuming later payments will arrive before bank details are registered.",
+            "Treating the calculator result as a guaranteed payment amount."
+          ]
         },
         "he": {
           "title": "בדיקת תשלומי סל קליטה",
@@ -516,7 +654,15 @@
             "העבירו את פרטי החשבון בערוץ הרשמי של המשרד.",
             "בדקו תשלומים וזכאות אישית באזור האישי."
           ],
-          "notes": "גובה התשלום והזכאות תלויים בנסיבות האישיות. תוצאות המחשבון הרשמי הן הערכה בלבד."
+          "notes": "הסכומים והמועדים תלויים בהרכב המשפחה, במעמד, בתאריך העלייה ובזכאות הרשמית.",
+          "timing": "מיד לאחר ההגעה ובמהלך ששת החודשים הראשונים, בהתאם לזכאות האישית.",
+          "cost": "אין אגרת בקשה.",
+          "channel": "טיפול ראשוני בנמל התעופה; לאחר מכן עדכון חשבון ופניות באזור האישי או אצל היועץ.",
+          "after": "ודאו שחשבון הבנק נקלט והשוו בין התשלום הצפוי לתשלום שהתקבל.",
+          "mistakes": [
+            "להניח שהתשלומים הבאים ייכנסו לפני רישום חשבון הבנק.",
+            "להתייחס לתוצאת המחשבון כסכום מובטח."
+          ]
         },
         "fr": {
           "title": "Vérifier les paiements du panier d’intégration",
@@ -535,7 +681,15 @@
             "Transmettez les coordonnées bancaires par le canal officiel.",
             "Consultez les paiements réels dans l’espace personnel."
           ],
-          "notes": "Le montant et l’admissibilité dépendent de la situation personnelle. Le calculateur officiel ne fournit qu’une estimation."
+          "notes": "Les montants et dates dépendent de la composition familiale, du statut, de la date d’arrivée et de la décision officielle.",
+          "timing": "Dès l’arrivée et pendant les six premiers mois, selon l’admissibilité personnelle.",
+          "cost": "Aucun frais de demande.",
+          "channel": "Première prise en charge à l’aéroport; ensuite coordonnées bancaires et demandes via l’espace personnel ou le conseiller.",
+          "after": "Vérifiez que le compte bancaire est bien enregistré et comparez les versements attendus et reçus.",
+          "mistakes": [
+            "Supposer que les versements continueront avant l’enregistrement du compte bancaire.",
+            "Considérer le calculateur comme une garantie de montant."
+          ]
         },
         "ko": {
           "title": "살 클리타 지급 확인하기",
@@ -554,9 +708,19 @@
             "공식 경로로 계좌 정보를 알리야·통합부에 제출합니다.",
             "실제 지급과 개인별 자격은 공식 개인계정에서 확인합니다."
           ],
-          "notes": "지급액과 자격은 개인 상황에 따라 달라집니다. 공식 계산기 결과도 예상치입니다."
+          "notes": "금액과 지급일은 가족구성, 지위, 입국일과 공식 자격 결정에 따라 달라집니다.",
+          "timing": "도착 직후부터 개인 자격에 따라 첫 6개월 동안.",
+          "cost": "신청 수수료 없음.",
+          "channel": "공항에서 초기 처리 후, 은행계좌 등록과 문의는 개인계정 또는 흡수 상담사를 이용합니다.",
+          "after": "은행계좌가 제대로 등록됐는지 확인하고 예상 지급액과 실제 입금액을 비교합니다.",
+          "mistakes": [
+            "계좌정보를 등록하기 전에 이후 지급도 자동으로 들어온다고 생각하는 것.",
+            "계산기 결과를 확정 지급액으로 보는 것."
+          ]
         }
-      }
+      },
+      "stage": "firstDays",
+      "priority": "high"
     },
     {
       "id": "israeli-id-card",
@@ -588,7 +752,15 @@
             "Attend in person with the listed original documents.",
             "Activate the card after it is issued."
           ],
-          "notes": "Required documents differ by application type. Check the official service immediately before the appointment."
+          "notes": "Requirements differ for first issue, renewal, loss, theft, damage, or personal-data changes.",
+          "timing": "During the initial absorption process or as soon as an appointment is available if the first card was not completed.",
+          "cost": "First issuance may be free; replacement fees depend on the reason. Check the official page.",
+          "channel": "Appointment and in-person application at the Population and Immigration Authority; activation after delivery.",
+          "after": "Check the Hebrew and English name spelling, activate the card, and keep the ID appendix.",
+          "mistakes": [
+            "Bringing a driving licence instead of an accepted identity document.",
+            "Not checking name spelling before the biometric document is issued."
+          ]
         },
         "he": {
           "title": "הגשת בקשה לתעודת זהות ישראלית",
@@ -608,7 +780,15 @@
             "הגיעו אישית עם המסמכים המקוריים.",
             "הפעילו את התעודה לאחר הנפקתה."
           ],
-          "notes": "המסמכים משתנים לפי סוג הבקשה. יש לבדוק את הדף הרשמי סמוך למועד התור."
+          "notes": "הדרישות משתנות בין הנפקה ראשונה, חידוש, אובדן, גניבה, נזק או שינוי פרטים.",
+          "timing": "בתהליך הקליטה הראשוני או בהקדם האפשרי אם ההנפקה הראשונה לא הושלמה.",
+          "cost": "הנפקה ראשונה עשויה להיות ללא עלות; אגרות החלפה תלויות בסיבה. בדקו בדף הרשמי.",
+          "channel": "קביעת תור והגשה אישית ברשות האוכלוסין; הפעלה לאחר קבלת התעודה.",
+          "after": "בדקו את איות השם בעברית ובאנגלית, הפעילו את התעודה ושמרו את הספח.",
+          "mistakes": [
+            "הבאת רישיון נהיגה במקום מסמך זיהוי קביל.",
+            "אי־בדיקת איות השם לפני הנפקת המסמך הביומטרי."
+          ]
         },
         "fr": {
           "title": "Demander une carte d’identité israélienne",
@@ -628,7 +808,15 @@
             "Présentez-vous avec les originaux demandés.",
             "Activez la carte après sa délivrance."
           ],
-          "notes": "Les pièces diffèrent selon la situation. Vérifiez la page officielle peu avant le rendez-vous."
+          "notes": "Les exigences varient selon première délivrance, renouvellement, perte, vol, dommage ou modification des données.",
+          "timing": "Pendant l’accueil initial ou dès qu’un rendez-vous est disponible si la première carte n’a pas été finalisée.",
+          "cost": "La première délivrance peut être gratuite; les frais de remplacement dépendent du motif.",
+          "channel": "Rendez-vous et demande en personne auprès de l’Autorité de la population; activation après réception.",
+          "after": "Vérifiez l’orthographe du nom en hébreu et en anglais, activez la carte et conservez l’annexe.",
+          "mistakes": [
+            "Présenter un permis de conduire comme pièce d’identité.",
+            "Ne pas vérifier l’orthographe du nom avant l’émission du document biométrique."
+          ]
         },
         "ko": {
           "title": "이스라엘 테우닷 제후트 신청하기",
@@ -648,9 +836,19 @@
             "요구된 원본 서류를 가지고 직접 방문합니다.",
             "발급된 신분증을 활성화합니다."
           ],
-          "notes": "신청 유형에 따라 요구 서류가 달라집니다. 방문 직전에 공식 페이지를 다시 확인해야 합니다."
+          "notes": "첫 발급, 갱신, 분실, 도난, 훼손 또는 개인정보 변경에 따라 요구사항이 다릅니다.",
+          "timing": "초기 정착 과정에서 처리하거나, 첫 발급이 완료되지 않았다면 예약 가능한 즉시.",
+          "cost": "첫 발급은 무료일 수 있으며 재발급 비용은 사유에 따라 다릅니다. 공식 페이지를 확인하세요.",
+          "channel": "인구이민청 예약 후 직접 신청하고 배송받은 뒤 활성화합니다.",
+          "after": "히브리어·영어 이름 철자를 확인하고 신분증을 활성화하며 스파흐를 보관합니다.",
+          "mistakes": [
+            "인정되는 신분증 대신 운전면허증만 가져가는 것.",
+            "생체인식 문서 발급 전에 이름 철자를 확인하지 않는 것."
+          ]
         }
-      }
+      },
+      "stage": "firstDays",
+      "priority": "high"
     },
     {
       "id": "health-fund-registration",
@@ -680,7 +878,15 @@
             "Keep the registration confirmation.",
             "Contact a National Insurance branch if more than 90 days have passed since Aliyah."
           ],
-          "notes": "Online registration becomes available after the relevant personal data is integrated. Post-office registration may have a fee; the online service is free."
+          "notes": "Availability of online registration depends on the transfer and integration of personal data.",
+          "timing": "Immediately after arrival. If more than 90 days have passed, contact National Insurance.",
+          "cost": "Online registration is free; post-office registration may involve a fee.",
+          "channel": "At initial airport absorption, through an approved post office, or online once the data is integrated.",
+          "after": "Contact the selected HMO, receive membership details, choose a clinic and doctor, and verify every family member.",
+          "mistakes": [
+            "Assuming every family member was automatically registered.",
+            "Waiting without checking whether ministry data reached National Insurance."
+          ]
         },
         "he": {
           "title": "רישום לקופת חולים",
@@ -698,7 +904,15 @@
             "שמרו את אישור הרישום.",
             "אם חלפו יותר מ־90 יום מהעלייה, פנו לסניף הביטוח הלאומי."
           ],
-          "notes": "הרישום המקוון זמין לאחר קליטת הנתונים. רישום בדואר עשוי להיות כרוך בתשלום; השירות המקוון ללא עלות."
+          "notes": "זמינות הרישום המקוון תלויה בהעברת הנתונים ובקליטתם.",
+          "timing": "מיד לאחר ההגעה. אם חלפו יותר מ־90 יום, פנו לביטוח הלאומי.",
+          "cost": "הרישום המקוון ללא עלות; רישום בדואר עשוי להיות כרוך באגרה.",
+          "channel": "בתהליך הקליטה בנמל התעופה, בדואר מאושר או באינטרנט לאחר קליטת הנתונים.",
+          "after": "פנו לקופה שנבחרה, קבלו פרטי חברות, בחרו מרפאה ורופא ובדקו כל בן משפחה.",
+          "mistakes": [
+            "להניח שכל בני המשפחה נרשמו אוטומטית.",
+            "להמתין בלי לבדוק אם הנתונים הועברו לביטוח הלאומי."
+          ]
         },
         "fr": {
           "title": "S’inscrire à une caisse de santé",
@@ -716,7 +930,15 @@
             "Conservez l’attestation d’inscription.",
             "Après plus de 90 jours, adressez-vous à une agence de l’assurance nationale."
           ],
-          "notes": "L’inscription en ligne dépend de l’intégration des données. La poste peut facturer des frais; le service en ligne est gratuit."
+          "notes": "La disponibilité en ligne dépend du transfert et de l’intégration des données personnelles.",
+          "timing": "Immédiatement après l’arrivée. Au-delà de 90 jours, contactez l’assurance nationale.",
+          "cost": "L’inscription en ligne est gratuite; la poste peut facturer des frais.",
+          "channel": "À l’aéroport, dans un bureau de poste agréé ou en ligne après l’intégration des données.",
+          "after": "Contactez la caisse choisie, obtenez les informations d’adhésion, choisissez une clinique et vérifiez chaque membre de la famille.",
+          "mistakes": [
+            "Supposer que toute la famille a été inscrite automatiquement.",
+            "Attendre sans vérifier que les données ont été transmises."
+          ]
         },
         "ko": {
           "title": "쿠파트 홀림 등록하기",
@@ -734,9 +956,19 @@
             "등록 확인서를 보관합니다.",
             "알리야 후 90일을 넘겼다면 가까운 비투아흐 레우미 지점에 문의합니다."
           ],
-          "notes": "온라인 등록은 개인정보가 기관 시스템에 반영된 뒤 가능합니다. 우체국은 수수료가 있을 수 있고 온라인 등록은 무료입니다."
+          "notes": "온라인 등록 가능 시점은 개인정보가 기관 시스템에 반영되는 속도에 따라 달라집니다.",
+          "timing": "도착 즉시. 알리야 후 90일이 넘었다면 비투아흐 레우미에 문의합니다.",
+          "cost": "온라인 등록 무료. 우체국 등록은 수수료가 있을 수 있습니다.",
+          "channel": "공항 초기 정착 과정, 지정 우체국 또는 정보 반영 후 온라인으로 처리합니다.",
+          "after": "선택한 쿠파트 홀림에 연락해 회원정보를 받고 진료소와 의사를 선택하며 가족 전원의 상태를 확인합니다.",
+          "mistakes": [
+            "가족 전원이 자동 등록됐다고 생각하는 것.",
+            "기관 간 정보 전달 여부를 확인하지 않고 기다리는 것."
+          ]
         }
-      }
+      },
+      "stage": "firstDays",
+      "priority": "high"
     },
     {
       "id": "national-insurance-new-olim",
@@ -767,7 +999,15 @@
             "Use the personal service to send documents or update details.",
             "Keep confirmation of every submission."
           ],
-          "notes": "Contribution exemptions and benefit eligibility depend on income, status, dates, and personal circumstances."
+          "notes": "Benefits and contribution exemptions depend on dates, income, residence status, and personal circumstances.",
+          "timing": "Check during the first month and whenever you start work, stop work, have a child, or receive a debt or benefit notice.",
+          "cost": "Account use and document submission are free.",
+          "channel": "National Insurance website, personal account, online document submission, or local branch.",
+          "after": "Check resident status, contribution status, bank details, family records, and claim messages.",
+          "mistakes": [
+            "Assuming Ministry of Aliyah registration automatically resolves every National Insurance record.",
+            "Ignoring debt notices because of a possible exemption."
+          ]
         },
         "he": {
           "title": "בדיקת רישום ושירותים לעולים בביטוח הלאומי",
@@ -786,7 +1026,15 @@
             "השתמשו בשירות האישי לשליחת מסמכים או לעדכון פרטים.",
             "שמרו אישור לכל פעולה."
           ],
-          "notes": "פטורים מדמי ביטוח וזכאות לקצבאות תלויים בהכנסה, במעמד, בתאריכים ובנסיבות האישיות."
+          "notes": "קצבאות ופטורים תלויים בתאריכים, בהכנסה, בתושבות ובנסיבות האישיות.",
+          "timing": "בדקו בחודש הראשון ובכל שינוי של עבודה, לידה, חוב או הודעה על קצבה.",
+          "cost": "השימוש באזור האישי ושליחת מסמכים ללא עלות.",
+          "channel": "אתר הביטוח הלאומי, אזור אישי, שליחת מסמכים מקוונת או סניף.",
+          "after": "בדקו תושבות, דמי ביטוח, פרטי בנק, רישומי משפחה והודעות על תביעות.",
+          "mistakes": [
+            "להניח שהרישום במשרד העלייה מסדיר אוטומטית כל רישום בביטוח הלאומי.",
+            "להתעלם מהודעת חוב בגלל פטור אפשרי."
+          ]
         },
         "fr": {
           "title": "Vérifier l’inscription et les services de l’assurance nationale",
@@ -805,7 +1053,15 @@
             "Utilisez le service personnel pour transmettre les documents.",
             "Conservez chaque confirmation."
           ],
-          "notes": "Les exonérations et prestations dépendent des revenus, du statut, des dates et de la situation personnelle."
+          "notes": "Prestations et exonérations dépendent des dates, revenus, résidence et circonstances personnelles.",
+          "timing": "Vérifiez pendant le premier mois et lors de tout changement d’emploi, naissance, dette ou notification de prestation.",
+          "cost": "L’espace personnel et l’envoi de documents sont gratuits.",
+          "channel": "Site de l’assurance nationale, espace personnel, envoi en ligne ou agence locale.",
+          "after": "Vérifiez résidence, cotisations, coordonnées bancaires, famille et messages relatifs aux demandes.",
+          "mistakes": [
+            "Supposer que l’inscription au ministère règle automatiquement tous les dossiers.",
+            "Ignorer un avis de dette en raison d’une exonération supposée."
+          ]
         },
         "ko": {
           "title": "비투아흐 레우미 등록과 올림 서비스 확인하기",
@@ -824,9 +1080,19 @@
             "개인 서비스를 통해 서류를 보내거나 정보를 수정합니다.",
             "각 제출의 접수 확인을 보관합니다."
           ],
-          "notes": "보험료 면제와 수당 자격은 소득, 지위, 날짜와 개인 상황에 따라 달라집니다."
+          "notes": "수당과 보험료 면제는 날짜, 소득, 거주자 지위와 개인상황에 따라 달라집니다.",
+          "timing": "첫 한 달 안에 확인하고 취업·실직·출산·체납 또는 수당 통지를 받을 때마다 다시 확인합니다.",
+          "cost": "개인계정과 문서 제출은 무료.",
+          "channel": "비투아흐 레우미 웹사이트, 개인계정, 온라인 문서제출 또는 지역 지점.",
+          "after": "거주자 상태, 보험료, 계좌정보, 가족등록과 신청 메시지를 확인합니다.",
+          "mistakes": [
+            "알리야·통합부 등록으로 모든 비투아흐 레우미 기록도 자동 정리된다고 생각하는 것.",
+            "면제 가능성만 믿고 체납 통지를 무시하는 것."
+          ]
         }
-      }
+      },
+      "stage": "firstMonth",
+      "priority": "high"
     },
     {
       "id": "employment-service-registration",
@@ -856,7 +1122,15 @@
             "Schedule and attend the required appointment.",
             "If seeking unemployment benefit, submit a separate claim to National Insurance."
           ],
-          "notes": "Online registration does not replace attendance at required appointments. The official form is provided in Hebrew."
+          "notes": "The Employment Service and National Insurance are separate systems with separate steps.",
+          "timing": "Immediately after employment ends if you may seek unemployment benefit or placement assistance.",
+          "cost": "Free.",
+          "channel": "Online registration plus attendance or reporting as instructed by the Employment Service.",
+          "after": "Keep registration and attendance confirmations and file a separate unemployment claim with National Insurance if relevant.",
+          "mistakes": [
+            "Believing Employment Service registration automatically files the benefit claim.",
+            "Missing required reporting dates after online registration."
+          ]
         },
         "he": {
           "title": "רישום בשירות התעסוקה",
@@ -874,7 +1148,15 @@
             "קבעו והגיעו לתור שנדרש.",
             "אם מבקשים דמי אבטלה, הגישו תביעה נפרדת לביטוח הלאומי."
           ],
-          "notes": "הרישום המקוון אינו מחליף התייצבות בתורים שנקבעו."
+          "notes": "שירות התעסוקה והביטוח הלאומי הם מערכות נפרדות עם שלבים נפרדים.",
+          "timing": "מיד עם סיום העבודה אם ייתכן שתבקשו דמי אבטלה או סיוע בהשמה.",
+          "cost": "ללא עלות.",
+          "channel": "רישום מקוון ולאחריו התייצבות או דיווח לפי הנחיות שירות התעסוקה.",
+          "after": "שמרו אישורי רישום והתייצבות והגישו תביעה נפרדת לביטוח הלאומי אם נדרש.",
+          "mistakes": [
+            "לחשוב שהרישום בשירות התעסוקה מגיש אוטומטית תביעה לדמי אבטלה.",
+            "להחמיץ מועדי דיווח לאחר הרישום המקוון."
+          ]
         },
         "fr": {
           "title": "S’inscrire au Service israélien de l’emploi",
@@ -892,7 +1174,15 @@
             "Prenez et respectez les rendez-vous requis.",
             "Pour l’allocation chômage, déposez séparément une demande auprès de l’assurance nationale."
           ],
-          "notes": "L’inscription en ligne ne remplace pas la présence aux rendez-vous obligatoires. Le formulaire officiel est en hébreu."
+          "notes": "Le Service de l’emploi et l’assurance nationale sont deux systèmes distincts.",
+          "timing": "Dès la fin de l’emploi si vous pouvez demander le chômage ou une aide au placement.",
+          "cost": "Gratuit.",
+          "channel": "Inscription en ligne puis présence ou déclaration selon les instructions du Service de l’emploi.",
+          "after": "Conservez les preuves d’inscription et de présence et déposez séparément la demande auprès de l’assurance nationale.",
+          "mistakes": [
+            "Croire que l’inscription au Service de l’emploi dépose automatiquement la demande d’allocation.",
+            "Manquer les dates de déclaration après l’inscription en ligne."
+          ]
         },
         "ko": {
           "title": "이스라엘 고용서비스에 등록하기",
@@ -910,7 +1200,1553 @@
             "필요한 방문 예약을 하고 정해진 일정에 출석합니다.",
             "실업급여를 원하면 비투아흐 레우미에 별도 청구서를 제출합니다."
           ],
-          "notes": "온라인 등록만으로 방문 의무가 없어지는 것은 아닙니다. 공식 양식은 히브리어로 제공됩니다."
+          "notes": "고용서비스와 비투아흐 레우미는 서로 다른 기관이며 각각 별도 절차가 필요합니다.",
+          "timing": "실업급여나 취업알선이 필요할 수 있다면 고용 종료 즉시.",
+          "cost": "무료.",
+          "channel": "온라인 등록 후 고용서비스가 요구하는 출석 또는 보고를 계속합니다.",
+          "after": "등록·출석 확인을 보관하고 해당된다면 비투아흐 레우미에 실업급여를 별도로 신청합니다.",
+          "mistakes": [
+            "고용서비스 등록만으로 실업급여 신청도 자동 완료된다고 생각하는 것.",
+            "온라인 등록 뒤 정해진 보고일을 놓치는 것."
+          ]
+        }
+      },
+      "stage": "whenNeeded",
+      "priority": "medium"
+    },
+    {
+      "id": "support-calculator",
+      "category": "aliyah",
+      "stage": "firstDays",
+      "priority": "medium",
+      "agency": {
+        "en": "Ministry of Aliyah and Integration",
+        "he": "משרד העלייה והקליטה",
+        "fr": "Ministère de l’Alya et de l’Intégration",
+        "ko": "알리야·통합부"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/service_entitlement_calculator",
+      "translations": {
+        "en": {
+          "title": "Estimate new-immigrant financial support",
+          "summary": "Use the official calculator to estimate the Absorption Basket, National Insurance support, and subsistence assistance before checking actual personal payments.",
+          "who": [
+            "New immigrants who want an initial estimate of possible support"
+          ],
+          "documents": [
+            "Basic personal and family information",
+            "Aliyah or status dates",
+            "Income or household information requested by the calculator"
+          ],
+          "steps": [
+            "Open the official calculator.",
+            "Enter personal and family details carefully.",
+            "Save the estimate.",
+            "Compare it with the benefits and payments shown in your personal account."
+          ],
+          "timing": "During the first days and again after a meaningful change in family or income.",
+          "cost": "Free.",
+          "channel": "Online official calculator.",
+          "after": "Use the result to prepare questions for an absorption adviser; rely on the personal account for actual payments.",
+          "mistakes": [
+            "Treating an estimate as a binding eligibility decision.",
+            "Entering an approximate date when an exact status date is available."
+          ],
+          "notes": "The official page states that results are estimates and can change with criteria and additional information."
+        },
+        "he": {
+          "title": "הערכת סיוע כספי לעולים",
+          "summary": "השתמשו במחשבון הרשמי להערכת סל קליטה, סיוע מהביטוח הלאומי והבטחת קיום, ולאחר מכן בדקו את התשלומים האישיים בפועל.",
+          "who": [
+            "עולים חדשים המעוניינים בהערכה ראשונית של הסיוע האפשרי"
+          ],
+          "documents": [
+            "פרטים אישיים ומשפחתיים",
+            "תאריכי עלייה או מעמד",
+            "מידע על הכנסה ומשק בית לפי דרישת המחשבון"
+          ],
+          "steps": [
+            "פתחו את המחשבון הרשמי.",
+            "הזינו פרטים מדויקים.",
+            "שמרו את ההערכה.",
+            "השוו אותה לזכאויות ולתשלומים באזור האישי."
+          ],
+          "timing": "בימים הראשונים ושוב לאחר שינוי משמעותי במשפחה או בהכנסה.",
+          "cost": "ללא עלות.",
+          "channel": "מחשבון רשמי מקוון.",
+          "after": "השתמשו בתוצאה להכנת שאלות ליועץ קליטה; לתשלום בפועל הסתמכו על האזור האישי.",
+          "mistakes": [
+            "להתייחס להערכה כהחלטת זכאות מחייבת.",
+            "להזין תאריך משוער כשיש תאריך מעמד מדויק."
+          ],
+          "notes": "האתר הרשמי מדגיש שהתוצאה היא הערכה ועשויה להשתנות."
+        },
+        "fr": {
+          "title": "Estimer les aides financières du nouvel immigrant",
+          "summary": "Utilisez le calculateur officiel pour estimer le panier d’intégration, les aides de l’assurance nationale et l’allocation de subsistance, puis vérifiez les paiements réels.",
+          "who": [
+            "Nouveaux immigrants souhaitant une première estimation des aides"
+          ],
+          "documents": [
+            "Informations personnelles et familiales",
+            "Dates d’Alya ou de statut",
+            "Informations de revenus demandées"
+          ],
+          "steps": [
+            "Ouvrez le calculateur officiel.",
+            "Saisissez précisément les données.",
+            "Enregistrez l’estimation.",
+            "Comparez-la aux droits et paiements de l’espace personnel."
+          ],
+          "timing": "Dans les premiers jours et après un changement important de famille ou de revenus.",
+          "cost": "Gratuit.",
+          "channel": "Calculateur officiel en ligne.",
+          "after": "Utilisez le résultat pour préparer vos questions au conseiller; consultez l’espace personnel pour les montants réels.",
+          "mistakes": [
+            "Considérer l’estimation comme une décision définitive.",
+            "Utiliser une date approximative lorsqu’une date officielle existe."
+          ],
+          "notes": "La page officielle précise que les résultats sont estimatifs et peuvent changer."
+        },
+        "ko": {
+          "title": "올레 정착지원 예상액 계산하기",
+          "summary": "공식 계산기로 살 클리타, 비투아흐 레우미 지원과 생계지원 예상액을 확인한 뒤 실제 개인 지급내역과 비교합니다.",
+          "who": [
+            "가능한 지원액을 먼저 예상하려는 신규 올레"
+          ],
+          "documents": [
+            "개인·가족 기본정보",
+            "알리야 또는 지위 취득일",
+            "계산기가 요구하는 소득·가구정보"
+          ],
+          "steps": [
+            "공식 계산기를 엽니다.",
+            "개인·가족 정보를 정확히 입력합니다.",
+            "예상 결과를 저장합니다.",
+            "개인계정의 실제 자격과 지급내역과 비교합니다."
+          ],
+          "timing": "도착 직후, 그리고 가족이나 소득에 큰 변화가 있을 때.",
+          "cost": "무료.",
+          "channel": "공식 온라인 계산기.",
+          "after": "결과를 흡수 상담사에게 문의할 질문 정리에 사용하고 실제 지급은 개인계정에서 확인합니다.",
+          "mistakes": [
+            "예상액을 확정된 자격 결정으로 보는 것.",
+            "정확한 지위 취득일이 있는데 대략적인 날짜를 입력하는 것."
+          ],
+          "notes": "공식 페이지도 결과가 예상치이며 기준 변경이나 추가정보에 따라 달라질 수 있다고 명시합니다."
+        }
+      }
+    },
+    {
+      "id": "my-aliyah-official-app",
+      "category": "aliyah",
+      "stage": "firstDays",
+      "priority": "medium",
+      "agency": {
+        "en": "Ministry of Aliyah and Integration",
+        "he": "משרד העלייה והקליטה",
+        "fr": "Ministère de l’Alya et de l’Intégration",
+        "ko": "알리야·통합부"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/about-my-aliyah-app",
+      "translations": {
+        "en": {
+          "title": "Use the official My Aliyah app",
+          "summary": "The official app offers multilingual step-by-step tasks, maps, and links to government actions during Aliyah and the first months in Israel.",
+          "who": [
+            "New immigrants and people preparing for Aliyah"
+          ],
+          "documents": [
+            "A compatible smartphone",
+            "Government identification details for actions that require sign-in"
+          ],
+          "steps": [
+            "Open the official download page.",
+            "Install the app from the official store link.",
+            "Choose a language.",
+            "Review the task list and use official action links."
+          ],
+          "timing": "Before Aliyah or immediately after arrival.",
+          "cost": "Free.",
+          "channel": "Official mobile app.",
+          "after": "Use this independent guide when you need more detailed document explanations, printable checklists, or Korean guidance.",
+          "mistakes": [
+            "Downloading an unofficial app with a similar name.",
+            "Assuming the app itself replaces submission to the relevant authority."
+          ],
+          "notes": "The official app supports Hebrew, English, Russian, French, Spanish, and Amharic."
+        },
+        "he": {
+          "title": "שימוש באפליקציית My Aliyah הרשמית",
+          "summary": "האפליקציה הרשמית מציעה משימות מדורגות, מפות וקישורים לפעולות ממשלתיות בתהליך העלייה ובחודשים הראשונים.",
+          "who": [
+            "עולים חדשים ומי שמתכוננים לעלייה"
+          ],
+          "documents": [
+            "טלפון חכם תואם",
+            "פרטי הזדהות ממשלתית לפעולות המחייבות כניסה"
+          ],
+          "steps": [
+            "פתחו את דף ההורדה הרשמי.",
+            "התקינו דרך הקישור הרשמי לחנות.",
+            "בחרו שפה.",
+            "עברו על רשימת המשימות והקישורים."
+          ],
+          "timing": "לפני העלייה או מיד לאחר ההגעה.",
+          "cost": "ללא עלות.",
+          "channel": "אפליקציה ממשלתית רשמית.",
+          "after": "השתמשו במדריך העצמאי הזה להסברים מפורטים יותר, רשימות להדפסה או הדרכה בקוריאנית.",
+          "mistakes": [
+            "הורדת אפליקציה לא רשמית בשם דומה.",
+            "להניח שהאפליקציה מחליפה הגשה לרשות."
+          ],
+          "notes": "האפליקציה הרשמית זמינה בעברית, אנגלית, רוסית, צרפתית, ספרדית ואמהרית."
+        },
+        "fr": {
+          "title": "Utiliser l’application officielle My Aliyah",
+          "summary": "L’application officielle propose des tâches étape par étape, des cartes et des liens vers les services publics pendant l’Alya et les premiers mois.",
+          "who": [
+            "Nouveaux immigrants et personnes préparant leur Alya"
+          ],
+          "documents": [
+            "Un smartphone compatible",
+            "Les données d’identification pour les services nécessitant une connexion"
+          ],
+          "steps": [
+            "Ouvrez la page officielle de téléchargement.",
+            "Installez l’application depuis le lien officiel.",
+            "Choisissez la langue.",
+            "Consultez les tâches et les liens d’action."
+          ],
+          "timing": "Avant l’Alya ou immédiatement après l’arrivée.",
+          "cost": "Gratuit.",
+          "channel": "Application mobile gouvernementale.",
+          "after": "Utilisez ce guide indépendant pour des explications de documents plus détaillées, des listes imprimables ou le coréen.",
+          "mistakes": [
+            "Installer une application non officielle au nom similaire.",
+            "Croire que l’application remplace le dépôt auprès de l’administration."
+          ],
+          "notes": "L’application officielle prend en charge l’hébreu, l’anglais, le russe, le français, l’espagnol et l’amharique."
+        },
+        "ko": {
+          "title": "이스라엘 정부의 My Aliyah 앱 이용하기",
+          "summary": "이스라엘 정부 공식 앱은 알리야 준비와 도착 후 첫 몇 달의 할 일, 지도와 정부 업무 링크를 여러 언어로 제공합니다.",
+          "who": [
+            "신규 올레와 알리야 준비자"
+          ],
+          "documents": [
+            "호환되는 스마트폰",
+            "로그인이 필요한 업무용 정부 신원확인 정보"
+          ],
+          "steps": [
+            "공식 다운로드 페이지를 엽니다.",
+            "공식 스토어 링크에서 앱을 설치합니다.",
+            "언어를 선택합니다.",
+            "할 일 목록과 정부 업무 링크를 확인합니다."
+          ],
+          "timing": "알리야 전 또는 도착 직후.",
+          "cost": "무료.",
+          "channel": "정부 공식 모바일 앱.",
+          "after": "문서의 더 자세한 설명, 인쇄용 체크리스트 또는 한국어 안내가 필요할 때 이 독립 서비스를 함께 사용합니다.",
+          "mistakes": [
+            "비슷한 이름의 비공식 앱을 설치하는 것.",
+            "앱을 보는 것만으로 기관 신청이 끝났다고 생각하는 것."
+          ],
+          "notes": "공식 앱은 히브리어, 영어, 러시아어, 프랑스어, 스페인어와 암하라어를 지원합니다."
+        }
+      }
+    },
+    {
+      "id": "change-address",
+      "category": "identity",
+      "stage": "firstMonth",
+      "priority": "high",
+      "agency": {
+        "en": "Population and Immigration Authority",
+        "he": "רשות האוכלוסין וההגירה",
+        "fr": "Autorité de la population et de l’immigration",
+        "ko": "인구이민청"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/changing_address",
+      "translations": {
+        "en": {
+          "title": "Change your registered address",
+          "summary": "Update the address shown in the population registry and ID appendix online, at a self-service stand, by post, or in person.",
+          "who": [
+            "Israeli citizens or residents currently in Israel"
+          ],
+          "documents": [
+            "Israeli ID card",
+            "Supporting lease or explanation if another address change was made within 12 months",
+            "Additional consent or court documents for certain child-address cases"
+          ],
+          "steps": [
+            "Check whether your situation can be handled online.",
+            "Register or sign in to GovID.",
+            "Submit the new full address.",
+            "Download, print, or wait for the new ID appendix."
+          ],
+          "timing": "Soon after moving; do not leave government records at the old address.",
+          "cost": "Free.",
+          "channel": "Online, self-service stand, post, or Population Authority office depending on the case.",
+          "after": "Check the new address on the digital or printed appendix and separately update banks, HMO, utilities, and other organizations as needed.",
+          "mistakes": [
+            "Assuming one population-registry update changes every private account.",
+            "Applying online when the case requires supporting documents in person."
+          ],
+          "notes": "Special rules apply to repeated changes, guardians, and children of separated or unmarried parents."
+        },
+        "he": {
+          "title": "שינוי כתובת במרשם האוכלוסין",
+          "summary": "עדכון הכתובת במרשם ובספח תעודת הזהות באינטרנט, בעמדה, בדואר או בלשכה.",
+          "who": [
+            "אזרחים או תושבים ישראלים השוהים בארץ"
+          ],
+          "documents": [
+            "תעודת זהות",
+            "חוזה שכירות או הסבר אם בוצע שינוי נוסף ב־12 החודשים האחרונים",
+            "הסכמות או מסמכי בית משפט במקרים מסוימים של ילדים"
+          ],
+          "steps": [
+            "בדקו אם אפשר לבצע את המקרה באינטרנט.",
+            "הירשמו או היכנסו ל־GovID.",
+            "הגישו כתובת מלאה.",
+            "הורידו, הדפיסו או המתינו לספח החדש."
+          ],
+          "timing": "בסמוך למעבר הדירה.",
+          "cost": "ללא עלות.",
+          "channel": "אינטרנט, עמדה לשירות עצמי, דואר או לשכת הרשות לפי המקרה.",
+          "after": "בדקו את הכתובת בספח ועדכנו בנפרד בנק, קופה, חשמל וגופים אחרים.",
+          "mistakes": [
+            "להניח שהעדכון במרשם משנה אוטומטית כל חשבון פרטי.",
+            "להגיש באינטרנט כשנדרשים מסמכים והגעה אישית."
+          ],
+          "notes": "כללים מיוחדים חלים על שינוי חוזר, אפוטרופסות וכתובת ילדים להורים פרודים או לא נשואים."
+        },
+        "fr": {
+          "title": "Modifier l’adresse au registre de la population",
+          "summary": "Mettez à jour l’adresse du registre et de l’annexe de la carte d’identité en ligne, à une borne, par courrier ou en personne.",
+          "who": [
+            "Citoyens ou résidents israéliens présents en Israël"
+          ],
+          "documents": [
+            "Carte d’identité israélienne",
+            "Bail ou lettre explicative si l’adresse a déjà changé dans les 12 mois",
+            "Consentements ou décisions judiciaires dans certains dossiers d’enfants"
+          ],
+          "steps": [
+            "Vérifiez si votre situation peut être traitée en ligne.",
+            "Connectez-vous à GovID.",
+            "Saisissez l’adresse complète.",
+            "Téléchargez, imprimez ou attendez la nouvelle annexe."
+          ],
+          "timing": "Peu après le déménagement.",
+          "cost": "Gratuit.",
+          "channel": "En ligne, borne libre-service, courrier ou bureau selon le dossier.",
+          "after": "Vérifiez la nouvelle adresse et mettez séparément à jour banque, caisse de santé, services publics et autres organismes.",
+          "mistakes": [
+            "Penser que le registre met à jour tous les comptes privés.",
+            "Faire une demande en ligne alors que des justificatifs et une visite sont requis."
+          ],
+          "notes": "Des règles spéciales s’appliquent aux changements répétés, tuteurs et enfants de parents séparés ou non mariés."
+        },
+        "ko": {
+          "title": "인구등록 주소 변경하기",
+          "summary": "인구등록부와 테우닷 제후트 스파흐의 주소를 온라인, 무인기기, 우편 또는 직접 방문으로 변경합니다.",
+          "who": [
+            "현재 이스라엘에 있는 시민 또는 거주자"
+          ],
+          "documents": [
+            "이스라엘 신분증",
+            "최근 12개월 안에 주소를 이미 변경했다면 임대계약서나 설명서",
+            "일부 자녀 주소변경의 경우 동의서 또는 법원문서"
+          ],
+          "steps": [
+            "온라인 처리가 가능한 상황인지 확인합니다.",
+            "GovID에 등록하거나 로그인합니다.",
+            "새 전체 주소를 제출합니다.",
+            "새 스파흐를 다운로드·출력하거나 우편으로 받습니다."
+          ],
+          "timing": "이사한 뒤 가능한 빨리.",
+          "cost": "무료.",
+          "channel": "상황에 따라 온라인, 무인기기, 우편 또는 인구이민청 지점.",
+          "after": "새 스파흐의 주소를 확인하고 은행, 쿠파트 홀림, 공과금과 기타 기관은 별도로 수정합니다.",
+          "mistakes": [
+            "인구등록 주소만 바꾸면 모든 민간계정도 자동 변경된다고 생각하는 것.",
+            "직접 증빙 제출이 필요한 상황인데 온라인으로만 신청하는 것."
+          ],
+          "notes": "최근 반복 변경, 후견인, 별거·미혼 부모의 자녀 주소에는 별도 규칙이 적용됩니다."
+        }
+      }
+    },
+    {
+      "id": "id-appendix",
+      "category": "identity",
+      "stage": "firstMonth",
+      "priority": "medium",
+      "agency": {
+        "en": "Population and Immigration Authority",
+        "he": "רשות האוכלוסין וההגירה",
+        "fr": "Autorité de la population et de l’immigration",
+        "ko": "인구이민청"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/renew_id_appendix",
+      "translations": {
+        "en": {
+          "title": "Download or replace your ID appendix",
+          "summary": "Get a current ID appendix free through myGov, a self-service stand, online delivery, or a Population Authority office.",
+          "who": [
+            "Israeli citizens and residents who need a current or replacement appendix"
+          ],
+          "documents": [
+            "GovID access for digital download, or Israeli ID for an in-person request"
+          ],
+          "steps": [
+            "Open the official service.",
+            "Choose digital download, mailed copy, self-service printing, or office service.",
+            "Verify all family and address details.",
+            "Store a digital copy securely."
+          ],
+          "timing": "After an address or family-status change, or whenever the appendix is missing or outdated.",
+          "cost": "Free.",
+          "channel": "myGov, online request, self-service stand, or Population Authority office.",
+          "after": "Use the updated appendix for services that require family, child, or address details.",
+          "mistakes": [
+            "Using an old appendix after a registry change.",
+            "Sharing an unredacted copy when only a limited detail is needed."
+          ],
+          "notes": "The appendix contains sensitive family and address data; store and share it carefully."
+        },
+        "he": {
+          "title": "הורדה או החלפה של ספח תעודת זהות",
+          "summary": "קבלת ספח עדכני ללא עלות דרך myGov, עמדה לשירות עצמי, משלוח או לשכת הרשות.",
+          "who": [
+            "אזרחים ותושבים הזקוקים לספח עדכני או חלופי"
+          ],
+          "documents": [
+            "גישה ל־GovID להורדה, או תעודת זהות לשירות אישי"
+          ],
+          "steps": [
+            "פתחו את השירות הרשמי.",
+            "בחרו הורדה, משלוח, הדפסה בעמדה או שירות בלשכה.",
+            "בדקו כתובת ופרטי משפחה.",
+            "שמרו עותק דיגיטלי מאובטח."
+          ],
+          "timing": "לאחר שינוי כתובת או מצב משפחתי, או כשהספח חסר או ישן.",
+          "cost": "ללא עלות.",
+          "channel": "myGov, בקשה מקוונת, עמדה או לשכת הרשות.",
+          "after": "השתמשו בספח המעודכן בשירותים הדורשים פרטי כתובת, ילדים או משפחה.",
+          "mistakes": [
+            "להשתמש בספח ישן לאחר שינוי במרשם.",
+            "לשתף עותק מלא כשנדרש רק פרט מסוים."
+          ],
+          "notes": "הספח כולל מידע משפחתי וכתובת רגישים. יש לשמור ולשתף בזהירות."
+        },
+        "fr": {
+          "title": "Télécharger ou remplacer l’annexe de la carte d’identité",
+          "summary": "Obtenez gratuitement une annexe à jour via myGov, une borne, un envoi postal ou un bureau de l’Autorité.",
+          "who": [
+            "Citoyens et résidents ayant besoin d’une annexe actuelle ou de remplacement"
+          ],
+          "documents": [
+            "Accès GovID pour le téléchargement ou carte d’identité pour une demande en personne"
+          ],
+          "steps": [
+            "Ouvrez le service officiel.",
+            "Choisissez téléchargement, envoi, borne ou bureau.",
+            "Vérifiez l’adresse et la famille.",
+            "Conservez une copie numérique sécurisée."
+          ],
+          "timing": "Après un changement d’adresse ou de situation familiale, ou si l’annexe manque.",
+          "cost": "Gratuit.",
+          "channel": "myGov, demande en ligne, borne ou bureau.",
+          "after": "Utilisez l’annexe actualisée pour les démarches exigeant l’adresse ou les données familiales.",
+          "mistakes": [
+            "Utiliser une ancienne annexe après une modification.",
+            "Partager une copie non masquée alors qu’un seul détail suffit."
+          ],
+          "notes": "L’annexe contient des données sensibles sur l’adresse et la famille."
+        },
+        "ko": {
+          "title": "테우닷 제후트 스파흐 내려받기·재발급",
+          "summary": "myGov, 무인기기, 온라인 우편신청 또는 인구이민청에서 최신 스파흐를 무료로 받을 수 있습니다.",
+          "who": [
+            "최신 또는 대체 스파흐가 필요한 시민과 거주자"
+          ],
+          "documents": [
+            "디지털 다운로드용 GovID 또는 직접 신청용 이스라엘 신분증"
+          ],
+          "steps": [
+            "공식 서비스를 엽니다.",
+            "디지털 다운로드, 우편수령, 무인출력 또는 방문을 선택합니다.",
+            "주소와 가족정보를 확인합니다.",
+            "디지털 사본을 안전하게 보관합니다."
+          ],
+          "timing": "주소·가족관계 변경 뒤 또는 스파흐가 없거나 오래됐을 때.",
+          "cost": "무료.",
+          "channel": "myGov, 온라인 신청, 무인기기 또는 인구이민청.",
+          "after": "주소, 자녀 또는 가족정보가 필요한 업무에 최신 스파흐를 사용합니다.",
+          "mistakes": [
+            "등록정보 변경 뒤에도 이전 스파흐를 사용하는 것.",
+            "일부 정보만 필요한데 가리지 않은 전체 사본을 보내는 것."
+          ],
+          "notes": "스파흐에는 민감한 주소와 가족정보가 있으므로 보관·전송에 주의하세요."
+        }
+      }
+    },
+    {
+      "id": "israeli-passport",
+      "category": "identity",
+      "stage": "firstMonth",
+      "priority": "medium",
+      "agency": {
+        "en": "Population and Immigration Authority",
+        "he": "רשות האוכלוסין וההגירה",
+        "fr": "Autorité de la population et de l’immigration",
+        "ko": "인구이민청"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/application_for_biometric_passport2",
+      "translations": {
+        "en": {
+          "title": "Apply for an Israeli passport",
+          "summary": "Book an appointment, check the current fee, pay online where appropriate, and apply in person for a biometric passport.",
+          "who": [
+            "Israeli citizens who need a first passport, renewal, or replacement"
+          ],
+          "documents": [
+            "Israeli ID card",
+            "Existing passport if renewing",
+            "Additional parental-consent or loss documents where applicable",
+            "Foreign passport or Oleh certificate if preserving an established English spelling"
+          ],
+          "steps": [
+            "Read the official options for your case.",
+            "Book an appointment.",
+            "Pay through the approved method.",
+            "Attend in person with the required documents.",
+            "Track delivery after the application."
+          ],
+          "timing": "After receiving an Israeli ID and well before planned international travel.",
+          "cost": "Fee varies by season, payment method, age, and replacement reason; check the live official table.",
+          "channel": "Online appointment and payment, followed by an in-person biometric application.",
+          "after": "Check the Hebrew and English spelling and track postal delivery.",
+          "mistakes": [
+            "Buying travel before allowing time for issuance.",
+            "Assuming foreign-passport spelling will be used without bringing evidence."
+          ],
+          "notes": "Destination and transit entry rules are the traveler’s responsibility and may require minimum passport validity."
+        },
+        "he": {
+          "title": "הגשת בקשה לדרכון ישראלי",
+          "summary": "קבעו תור, בדקו אגרה עדכנית, שלמו בערוץ המאושר והגישו בקשה אישית לדרכון ביומטרי.",
+          "who": [
+            "אזרחים ישראלים הזקוקים לדרכון ראשון, חידוש או החלפה"
+          ],
+          "documents": [
+            "תעודת זהות",
+            "דרכון קיים בחידוש",
+            "הסכמת הורים או מסמכי אובדן לפי הצורך",
+            "דרכון זר או תעודת עולה לשמירת איות באנגלית"
+          ],
+          "steps": [
+            "קראו את האפשרויות למקרה שלכם.",
+            "קבעו תור.",
+            "שלמו בדרך המאושרת.",
+            "הגיעו עם המסמכים.",
+            "עקבו אחר המשלוח."
+          ],
+          "timing": "לאחר קבלת תעודת זהות וזמן מספיק לפני נסיעה.",
+          "cost": "האגרה משתנה לפי עונה, דרך תשלום, גיל וסיבת החלפה.",
+          "channel": "תור ותשלום מקוונים ולאחריהם בקשה ביומטרית אישית.",
+          "after": "בדקו איות בעברית ובאנגלית ועקבו אחר הדואר.",
+          "mistakes": [
+            "להזמין נסיעה בלי להשאיר זמן להנפקה.",
+            "להניח שאיות הדרכון הזר יישמר ללא הוכחה."
+          ],
+          "notes": "האחריות לבדיקת דרישות הכניסה והמעבר במדינות היעד היא של הנוסע."
+        },
+        "fr": {
+          "title": "Demander un passeport israélien",
+          "summary": "Prenez rendez-vous, vérifiez les frais, payez par le canal autorisé et présentez-vous pour la demande biométrique.",
+          "who": [
+            "Citoyens israéliens demandant un premier passeport, renouvellement ou remplacement"
+          ],
+          "documents": [
+            "Carte d’identité israélienne",
+            "Passeport existant en cas de renouvellement",
+            "Consentement parental ou déclaration de perte selon le cas",
+            "Passeport étranger ou certificat d’Oleh pour conserver une orthographe anglaise"
+          ],
+          "steps": [
+            "Lisez les options correspondant à votre cas.",
+            "Prenez rendez-vous.",
+            "Payez par la méthode autorisée.",
+            "Présentez-vous avec les pièces.",
+            "Suivez la livraison."
+          ],
+          "timing": "Après réception de la carte d’identité et bien avant un voyage prévu.",
+          "cost": "Les frais varient selon saison, mode de paiement, âge et motif.",
+          "channel": "Rendez-vous et paiement en ligne, puis demande biométrique en personne.",
+          "after": "Vérifiez l’orthographe en hébreu et anglais et suivez l’envoi postal.",
+          "mistakes": [
+            "Réserver un voyage sans prévoir le délai d’émission.",
+            "Supposer que l’orthographe étrangère sera conservée sans justificatif."
+          ],
+          "notes": "Le voyageur doit vérifier lui-même les règles d’entrée et de transit."
+        },
+        "ko": {
+          "title": "이스라엘 여권 신청하기",
+          "summary": "예약, 현재 수수료 확인과 결제 후 인구이민청에서 생체인식 여권을 직접 신청합니다.",
+          "who": [
+            "첫 여권, 갱신 또는 재발급이 필요한 이스라엘 시민"
+          ],
+          "documents": [
+            "이스라엘 신분증",
+            "갱신 시 기존 여권",
+            "해당되는 경우 부모 동의 또는 분실 관련 서류",
+            "기존 영어 철자를 유지하려면 외국 여권이나 테우닷 올레"
+          ],
+          "steps": [
+            "자신의 신청 유형에 맞는 공식 안내를 읽습니다.",
+            "예약합니다.",
+            "승인된 방법으로 결제합니다.",
+            "요구서류를 가지고 직접 방문합니다.",
+            "신청 후 배송을 추적합니다."
+          ],
+          "timing": "이스라엘 신분증 발급 후, 해외여행보다 충분히 앞서.",
+          "cost": "계절, 결제방법, 나이와 재발급 사유에 따라 달라지므로 실시간 공식 표를 확인합니다.",
+          "channel": "온라인 예약·결제 후 직접 생체인식 신청.",
+          "after": "히브리어·영어 철자를 확인하고 우편배송을 추적합니다.",
+          "mistakes": [
+            "발급기간을 고려하지 않고 여행부터 예약하는 것.",
+            "증빙 없이 외국 여권의 영어 철자가 자동 유지될 것이라 생각하는 것."
+          ],
+          "notes": "목적지와 경유국의 입국조건·여권 잔여기간 확인은 여행자 책임입니다."
+        }
+      }
+    },
+    {
+      "id": "child-born-abroad",
+      "category": "family",
+      "stage": "firstMonth",
+      "priority": "high",
+      "agency": {
+        "en": "Population and Immigration Authority",
+        "he": "רשות האוכלוסין וההגירה",
+        "fr": "Autorité de la population et de l’immigration",
+        "ko": "인구이민청"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/registration_of_a_child_who_was_born_abroad",
+      "translations": {
+        "en": {
+          "title": "Register a child born abroad",
+          "summary": "Register a child under 18 who was born outside Israel in the population registry and add the child to the parents’ ID appendices.",
+          "who": [
+            "Israeli-citizen parents of a child under 18 born abroad"
+          ],
+          "documents": [
+            "Parents’ IDs or foreign passport where relevant",
+            "Child’s foreign passport",
+            "Original authenticated birth certificate",
+            "Notarized translation if required",
+            "Proof of parenthood when requested"
+          ],
+          "steps": [
+            "Check authentication and translation requirements.",
+            "Prepare originals and supporting parenthood evidence.",
+            "Apply in person at a Population Authority office or Israeli mission.",
+            "Request passport or other documents separately if needed."
+          ],
+          "timing": "As early as possible after arrival or birth registration becomes necessary.",
+          "cost": "The registration service itself is generally free; authentication and notarization can cost money.",
+          "channel": "In person in Israel or at an Israeli mission abroad.",
+          "after": "Check that the child appears correctly in the population registry and parents’ appendices; then verify National Insurance and HMO records.",
+          "mistakes": [
+            "Bringing a birth certificate without required apostille or authentication.",
+            "Assuming child registration automatically completes passport, allowance, and HMO processes."
+          ],
+          "notes": "Proof-of-parenthood requirements can be extensive in some cases; review the official page before the visit."
+        },
+        "he": {
+          "title": "רישום ילד שנולד בחו״ל",
+          "summary": "רישום ילד מתחת לגיל 18 שנולד מחוץ לישראל במרשם והוספתו לספחי ההורים.",
+          "who": [
+            "הורים אזרחים ישראלים לילד שנולד בחו״ל"
+          ],
+          "documents": [
+            "תעודות זהות או דרכון זר של ההורים לפי הצורך",
+            "דרכון זר של הילד",
+            "תעודת לידה מקורית ומאומתת",
+            "תרגום נוטריוני אם נדרש",
+            "ראיות להורות לפי דרישה"
+          ],
+          "steps": [
+            "בדקו דרישות אימות ותרגום.",
+            "הכינו מקור וראיות להורות.",
+            "הגישו אישית בלשכה או בנציגות ישראלית.",
+            "הגישו בנפרד בקשה לדרכון אם נדרש."
+          ],
+          "timing": "מוקדם ככל האפשר לאחר ההגעה או כשהרישום נדרש.",
+          "cost": "הרישום בדרך כלל ללא עלות; אימות ותרגום עשויים לעלות כסף.",
+          "channel": "בהגעה אישית בישראל או בנציגות בחו״ל.",
+          "after": "בדקו שהילד מופיע במרשם ובספחים, ולאחר מכן בביטוח הלאומי ובקופה.",
+          "mistakes": [
+            "להביא תעודת לידה ללא אפוסטיל או אימות נדרש.",
+            "להניח שהרישום משלים אוטומטית דרכון, קצבה וקופת חולים."
+          ],
+          "notes": "בחלק מהמקרים נדרשות ראיות הורות רבות. יש לבדוק את הדף הרשמי מראש."
+        },
+        "fr": {
+          "title": "Enregistrer un enfant né à l’étranger",
+          "summary": "Inscrivez au registre un enfant de moins de 18 ans né hors d’Israël et ajoutez-le aux annexes d’identité des parents.",
+          "who": [
+            "Parents citoyens israéliens d’un enfant né à l’étranger"
+          ],
+          "documents": [
+            "Pièces d’identité ou passeport étranger des parents",
+            "Passeport étranger de l’enfant",
+            "Acte de naissance original authentifié",
+            "Traduction notariée si nécessaire",
+            "Preuves de filiation demandées"
+          ],
+          "steps": [
+            "Vérifiez apostille, authentification et traduction.",
+            "Préparez originaux et preuves de filiation.",
+            "Déposez en personne auprès de l’Autorité ou d’une mission israélienne.",
+            "Demandez séparément le passeport si nécessaire."
+          ],
+          "timing": "Le plus tôt possible après l’arrivée ou lorsque l’inscription devient nécessaire.",
+          "cost": "L’inscription est généralement gratuite; apostille, authentification et traduction peuvent être payantes.",
+          "channel": "En personne en Israël ou dans une mission israélienne à l’étranger.",
+          "after": "Vérifiez le registre et les annexes, puis l’assurance nationale et la caisse de santé.",
+          "mistakes": [
+            "Présenter un acte sans l’authentification requise.",
+            "Croire que l’inscription règle automatiquement passeport, allocation et caisse."
+          ],
+          "notes": "Dans certains dossiers, les preuves de filiation sont importantes. Consultez la page officielle avant la visite."
+        },
+        "ko": {
+          "title": "해외 출생 자녀 등록하기",
+          "summary": "해외에서 태어난 18세 미만 자녀를 이스라엘 인구등록부에 등록하고 부모의 스파흐에 추가합니다.",
+          "who": [
+            "해외 출생 18세 미만 자녀의 이스라엘 시민 부모"
+          ],
+          "documents": [
+            "부모 신분증 또는 해당되는 경우 외국 여권",
+            "자녀 외국 여권",
+            "인증된 출생증명서 원본",
+            "필요한 경우 공증 번역",
+            "요구되는 친자관계 증빙"
+          ],
+          "steps": [
+            "아포스티유·인증·번역 요건을 확인합니다.",
+            "원본과 친자관계 자료를 준비합니다.",
+            "이스라엘 지점 또는 해외 공관에 직접 신청합니다.",
+            "여권 등이 필요하면 별도로 신청합니다."
+          ],
+          "timing": "입국 뒤 가능한 빨리 또는 등록이 필요한 즉시.",
+          "cost": "등록 자체는 일반적으로 무료지만 인증·공증·번역 비용이 들 수 있습니다.",
+          "channel": "이스라엘 인구이민청 또는 해외 이스라엘 공관 직접 방문.",
+          "after": "자녀가 인구등록부와 부모 스파흐에 정확히 나오는지 확인한 뒤 비투아흐 레우미와 쿠파트 홀림도 확인합니다.",
+          "mistakes": [
+            "필요한 아포스티유나 인증 없이 출생증명서를 가져가는 것.",
+            "인구등록만으로 여권·수당·건강보험도 자동 완료된다고 생각하는 것."
+          ],
+          "notes": "일부 상황에서는 친자관계 증빙이 복잡하므로 방문 전 공식 페이지를 자세히 확인하세요."
+        }
+      }
+    },
+    {
+      "id": "child-allowance",
+      "category": "family",
+      "stage": "firstMonth",
+      "priority": "high",
+      "agency": {
+        "en": "National Insurance Institute",
+        "he": "המוסד לביטוח לאומי",
+        "fr": "Institut national d’assurance",
+        "ko": "비투아흐 레우미"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.btl.gov.il/English%20Homepage/Benefits/Children/Pages/Claim.aspx",
+      "translations": {
+        "en": {
+          "title": "Check or claim child allowance",
+          "summary": "Child allowance is generally paid for eligible children under 18 living in Israel, but some immigration and family situations require a claim and supporting documents.",
+          "who": [
+            "Eligible parents or guardians of children under 18 living in Israel"
+          ],
+          "documents": [
+            "Israeli IDs and child registry details",
+            "Bank account information as required",
+            "Child’s passport for a child born abroad",
+            "Guardianship, adoption, or other supporting documents where relevant"
+          ],
+          "steps": [
+            "Check whether payment started automatically.",
+            "Review the official claim situations.",
+            "Submit the claim and attachments online or through an approved channel.",
+            "Check bank details and payment messages."
+          ],
+          "timing": "During the first month; claims should generally not be delayed because retroactive payment can be limited.",
+          "cost": "Free.",
+          "channel": "Online claim and document submission, or other National Insurance channels.",
+          "after": "Check the payment start date, amount, recipient bank account, and whether every eligible child is listed.",
+          "mistakes": [
+            "Waiting more than 12 months before submitting a required claim.",
+            "Assuming a child born abroad is automatically included without passport or registry evidence."
+          ],
+          "notes": "Eligibility depends on residence and the child’s status; exceptional family arrangements can require extra documentation."
+        },
+        "he": {
+          "title": "בדיקה או תביעה לקצבת ילדים",
+          "summary": "קצבת ילדים משולמת בדרך כלל עבור ילדים זכאים עד גיל 18 בישראל, אך במצבי עלייה ומשפחה מסוימים נדרשת תביעה ומסמכים.",
+          "who": [
+            "הורים או אפוטרופוסים זכאים לילדים עד גיל 18 החיים בישראל"
+          ],
+          "documents": [
+            "תעודות זהות ורישום הילדים",
+            "פרטי חשבון בנק",
+            "דרכון לילד שנולד בחו״ל",
+            "מסמכי אפוטרופסות או אימוץ לפי הצורך"
+          ],
+          "steps": [
+            "בדקו אם התשלום התחיל אוטומטית.",
+            "בדקו באילו מצבים נדרשת תביעה.",
+            "הגישו תביעה ומסמכים בערוץ מאושר.",
+            "בדקו חשבון בנק והודעות תשלום."
+          ],
+          "timing": "בחודש הראשון; אין לדחות תביעה נדרשת כי התשלום הרטרואקטיבי מוגבל.",
+          "cost": "ללא עלות.",
+          "channel": "תביעה ושליחת מסמכים באינטרנט או בערוצי הביטוח הלאומי.",
+          "after": "בדקו מועד התחלה, סכום, חשבון מקבל וכל ילד זכאי.",
+          "mistakes": [
+            "להמתין יותר מ־12 חודשים לפני תביעה נדרשת.",
+            "להניח שילד שנולד בחו״ל נכלל בלי דרכון או רישום."
+          ],
+          "notes": "הזכאות תלויה בתושבות ובמעמד הילד; מצבים משפחתיים מיוחדים דורשים מסמכים נוספים."
+        },
+        "fr": {
+          "title": "Vérifier ou demander les allocations familiales",
+          "summary": "Les allocations sont généralement versées pour les enfants admissibles de moins de 18 ans vivant en Israël, mais certaines situations exigent une demande et des pièces.",
+          "who": [
+            "Parents ou tuteurs admissibles d’enfants de moins de 18 ans vivant en Israël"
+          ],
+          "documents": [
+            "Cartes d’identité et données d’enregistrement des enfants",
+            "Coordonnées bancaires",
+            "Passeport d’un enfant né à l’étranger",
+            "Documents de tutelle ou d’adoption selon le cas"
+          ],
+          "steps": [
+            "Vérifiez si le paiement a commencé automatiquement.",
+            "Identifiez les cas nécessitant une demande.",
+            "Envoyez la demande et les pièces.",
+            "Vérifiez le compte bancaire et les messages."
+          ],
+          "timing": "Pendant le premier mois; ne retardez pas une demande car le rappel peut être limité.",
+          "cost": "Gratuit.",
+          "channel": "Demande et envoi de documents en ligne ou autres canaux de l’assurance nationale.",
+          "after": "Vérifiez date de début, montant, compte bénéficiaire et liste des enfants.",
+          "mistakes": [
+            "Attendre plus de 12 mois avant une demande nécessaire.",
+            "Supposer qu’un enfant né à l’étranger est inclus sans preuve."
+          ],
+          "notes": "L’admissibilité dépend de la résidence et du statut de l’enfant; des situations particulières exigent des pièces supplémentaires."
+        },
+        "ko": {
+          "title": "자녀수당 확인·신청하기",
+          "summary": "이스라엘에 거주하는 18세 미만의 자격 있는 자녀에게 일반적으로 지급되지만, 일부 알리야·가족 상황에서는 별도 신청과 증빙이 필요합니다.",
+          "who": [
+            "이스라엘 거주 18세 미만 자녀의 자격 있는 부모 또는 후견인"
+          ],
+          "documents": [
+            "부모 신분증과 자녀 등록정보",
+            "요구되는 은행계좌 정보",
+            "해외 출생 자녀의 여권",
+            "해당되는 경우 후견·입양 자료"
+          ],
+          "steps": [
+            "지급이 자동으로 시작됐는지 확인합니다.",
+            "별도 신청이 필요한 상황인지 봅니다.",
+            "신청서와 첨부자료를 제출합니다.",
+            "계좌와 지급 메시지를 확인합니다."
+          ],
+          "timing": "첫 한 달 안에. 소급지급에 제한이 있으므로 필요한 신청을 늦추지 않습니다.",
+          "cost": "무료.",
+          "channel": "비투아흐 레우미 온라인 신청·문서제출 또는 승인된 다른 경로.",
+          "after": "지급 시작일, 금액, 수령계좌와 모든 대상 자녀의 등록 여부를 확인합니다.",
+          "mistakes": [
+            "필요한 신청을 12개월 넘게 미루는 것.",
+            "해외 출생 자녀가 여권·등록증빙 없이 자동 포함된다고 생각하는 것."
+          ],
+          "notes": "자격은 거주자 지위와 자녀 상태에 따라 달라지며 특별한 가족관계에는 추가서류가 필요할 수 있습니다."
+        }
+      }
+    },
+    {
+      "id": "health-insurance-exemption",
+      "category": "health",
+      "stage": "firstMonth",
+      "priority": "medium",
+      "agency": {
+        "en": "National Insurance Institute",
+        "he": "המוסד לביטוח לאומי",
+        "fr": "Institut national d’assurance",
+        "ko": "비투아흐 레우미"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.btl.gov.il/English%20Homepage/About/Frequent_questions/Health-Insurance/Pages/sheela14.aspx",
+      "translations": {
+        "en": {
+          "title": "Check the new-immigrant health-insurance contribution exemption",
+          "summary": "A new immigrant may be exempt from health-insurance contributions for an initial period if the official income and status conditions are met.",
+          "who": [
+            "New immigrants checking whether health-insurance contributions are due"
+          ],
+          "documents": [
+            "Aliyah date and status",
+            "Income information",
+            "National Insurance account or notices",
+            "Living-allowance confirmation if applicable"
+          ],
+          "steps": [
+            "Read the current official exemption conditions.",
+            "Check income against the current threshold.",
+            "Review your National Insurance account.",
+            "Ask the branch to correct the record if a debt appears inconsistent with your status."
+          ],
+          "timing": "During the first month and immediately after any contribution or debt notice.",
+          "cost": "No fee to check or request correction.",
+          "channel": "National Insurance account, online inquiry, document submission, or branch.",
+          "after": "Verify that contribution months and any exemption are correctly shown; keep the response.",
+          "mistakes": [
+            "Assuming every new immigrant receives the same exemption regardless of income.",
+            "Ignoring a debt notice instead of requesting a documented correction."
+          ],
+          "notes": "Official thresholds and conditions can change. A living-allowance recipient may have different exemption treatment."
+        },
+        "he": {
+          "title": "בדיקת פטור מדמי ביטוח בריאות לעולה",
+          "summary": "עולה חדש עשוי להיות פטור מדמי ביטוח בריאות בתקופה הראשונה אם מתקיימים תנאי המעמד וההכנסה העדכניים.",
+          "who": [
+            "עולים חדשים הבודקים אם עליהם לשלם דמי ביטוח בריאות"
+          ],
+          "documents": [
+            "תאריך עלייה ומעמד",
+            "מידע על הכנסה",
+            "אזור אישי או הודעות חוב",
+            "אישור הבטחת קיום אם רלוונטי"
+          ],
+          "steps": [
+            "קראו את התנאים העדכניים.",
+            "בדקו הכנסה מול הסף הנוכחי.",
+            "בדקו את החשבון בביטוח הלאומי.",
+            "אם מופיע חוב שאינו מתאים, הגישו בקשה מתועדת לתיקון."
+          ],
+          "timing": "בחודש הראשון ומיד לאחר כל הודעת חיוב או חוב.",
+          "cost": "אין אגרה לבדיקה או לבקשת תיקון.",
+          "channel": "אזור אישי, פנייה מקוונת, שליחת מסמכים או סניף.",
+          "after": "ודאו שחודשי החיוב והפטור מופיעים נכון ושמרו את התשובה.",
+          "mistakes": [
+            "להניח שכל עולה מקבל אותו פטור ללא קשר להכנסה.",
+            "להתעלם מחוב במקום לבקש תיקון מתועד."
+          ],
+          "notes": "הספים והתנאים משתנים. למקבלי הבטחת קיום עשוי להיות טיפול שונה."
+        },
+        "fr": {
+          "title": "Vérifier l’exonération de cotisations de santé",
+          "summary": "Un nouvel immigrant peut être exonéré pendant une période initiale si les conditions officielles de revenu et de statut sont remplies.",
+          "who": [
+            "Nouveaux immigrants vérifiant si des cotisations de santé sont dues"
+          ],
+          "documents": [
+            "Date et statut d’Alya",
+            "Informations de revenus",
+            "Compte ou avis de l’assurance nationale",
+            "Attestation d’allocation de subsistance si applicable"
+          ],
+          "steps": [
+            "Lisez les conditions actuelles.",
+            "Comparez les revenus au seuil en vigueur.",
+            "Vérifiez le compte de l’assurance nationale.",
+            "Demandez une correction documentée si une dette paraît incohérente."
+          ],
+          "timing": "Pendant le premier mois et dès réception d’un avis de cotisation ou de dette.",
+          "cost": "Aucun frais pour vérifier ou demander une correction.",
+          "channel": "Espace personnel, demande en ligne, envoi de documents ou agence.",
+          "after": "Vérifiez les mois de cotisation et d’exonération et conservez la réponse.",
+          "mistakes": [
+            "Supposer que tous les Olim ont la même exonération quel que soit le revenu.",
+            "Ignorer une dette au lieu de demander une correction."
+          ],
+          "notes": "Les seuils et conditions peuvent changer. Les bénéficiaires d’une allocation de subsistance peuvent relever d’un régime différent."
+        },
+        "ko": {
+          "title": "신규 올레 건강보험료 면제 확인하기",
+          "summary": "공식 소득·지위 조건을 충족하면 신규 올레는 초기 일정 기간 건강보험료 면제 대상이 될 수 있습니다.",
+          "who": [
+            "건강보험료 납부 여부를 확인하려는 신규 올레"
+          ],
+          "documents": [
+            "알리야 날짜와 지위",
+            "소득정보",
+            "비투아흐 레우미 계정 또는 통지",
+            "해당되는 경우 생계지원 확인서"
+          ],
+          "steps": [
+            "현재 공식 면제조건을 읽습니다.",
+            "현재 기준금액과 소득을 비교합니다.",
+            "개인계정의 보험료 기록을 봅니다.",
+            "지위와 맞지 않는 체납이 보이면 증빙과 함께 정정을 요청합니다."
+          ],
+          "timing": "첫 한 달 안에, 그리고 보험료·체납 통지를 받는 즉시.",
+          "cost": "확인이나 정정요청 수수료 없음.",
+          "channel": "비투아흐 레우미 개인계정, 온라인 문의, 문서제출 또는 지점.",
+          "after": "부과월과 면제월이 올바르게 표시되는지 확인하고 답변을 보관합니다.",
+          "mistakes": [
+            "소득과 무관하게 모든 올레가 같은 면제를 받는다고 생각하는 것.",
+            "체납 통지를 무시하고 정정신청을 하지 않는 것."
+          ],
+          "notes": "기준금액과 조건은 변경될 수 있으며 생계지원 수령자는 다른 면제 적용을 받을 수 있습니다."
+        }
+      }
+    },
+    {
+      "id": "foreign-degree-evaluation",
+      "category": "employment",
+      "stage": "whenNeeded",
+      "priority": "medium",
+      "agency": {
+        "en": "Ministry of Aliyah and Integration",
+        "he": "משרד העלייה והקליטה",
+        "fr": "Ministère de l’Alya et de l’Intégration",
+        "ko": "알리야·통합부"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/foreign-degree-evaluation-for-new-olim",
+      "translations": {
+        "en": {
+          "title": "Evaluate a foreign academic degree",
+          "summary": "Request an official comparison of a foreign academic degree for public-sector salary ranking, public-service tenders, and professional integration.",
+          "who": [
+            "Eligible new immigrants with academic degrees earned abroad"
+          ],
+          "documents": [
+            "ID copy certified as a true copy",
+            "Degree diploma",
+            "Official transcript",
+            "Prior-degree documents for graduate degrees",
+            "Additional name, travel, distance-learning, or institution documents where applicable"
+          ],
+          "steps": [
+            "Open the Ministry personal account.",
+            "Choose the degree level.",
+            "Prepare certified copies for every required page.",
+            "Submit the online request and attachments.",
+            "Respond promptly to requests for missing documents."
+          ],
+          "timing": "Before applying for public-sector roles or tenders that require degree evaluation.",
+          "cost": "The Ministry process is generally free; lawyer certification or translation may cost money, while an absorption adviser can certify copies free in qualifying cases.",
+          "channel": "Online through the Ministry personal account.",
+          "after": "Download and securely store the official evaluation certificate and provide it only where required.",
+          "mistakes": [
+            "Uploading ordinary scans where certified true copies are required.",
+            "Submitting a Master’s or doctorate request without the required prior-degree evaluation chain."
+          ],
+          "notes": "Documents in English, Spanish, French, Russian, or Ukrainian generally do not need translation; check current rules for other languages."
+        },
+        "he": {
+          "title": "שקילת תואר אקדמי מחו״ל",
+          "summary": "בקשה להערכת תואר זר לצורך דירוג שכר במגזר הציבורי, מכרזי שירות המדינה והשתלבות מקצועית.",
+          "who": [
+            "עולים זכאים בעלי תואר אקדמי מחו״ל"
+          ],
+          "documents": [
+            "עותק תעודת זהות נאמן למקור",
+            "תעודת תואר",
+            "גיליון ציונים רשמי",
+            "מסמכי תארים קודמים לתארים מתקדמים",
+            "מסמכים נוספים לפי המקרה"
+          ],
+          "steps": [
+            "היכנסו לאזור האישי.",
+            "בחרו רמת תואר.",
+            "הכינו עותקים מאומתים לכל עמוד נדרש.",
+            "הגישו בקשה ומסמכים.",
+            "השלימו מסמכים חסרים במהירות."
+          ],
+          "timing": "לפני מועמדות למגזר הציבורי או מכרז הדורש שקילת תואר.",
+          "cost": "הטיפול במשרד בדרך כלל ללא עלות; אימות עורך דין או תרגום עשויים לעלות, ויועץ קליטה יכול לאמת בחינם במקרים מתאימים.",
+          "channel": "באינטרנט דרך האזור האישי של המשרד.",
+          "after": "הורידו ושמרו את אישור השקילה והציגו אותו רק כשנדרש.",
+          "mistakes": [
+            "העלאת סריקה רגילה במקום עותק נאמן למקור.",
+            "הגשת תואר מתקדם ללא שרשרת המסמכים של התארים הקודמים."
+          ],
+          "notes": "מסמכים באנגלית, ספרדית, צרפתית, רוסית או אוקראינית בדרך כלל אינם דורשים תרגום; בדקו את הכללים העדכניים."
+        },
+        "fr": {
+          "title": "Faire reconnaître un diplôme universitaire étranger",
+          "summary": "Demandez une comparaison officielle pour le classement salarial public, les concours de la fonction publique et l’intégration professionnelle.",
+          "who": [
+            "Nouveaux immigrants admissibles titulaires de diplômes étrangers"
+          ],
+          "documents": [
+            "Copie certifiée conforme de la carte d’identité",
+            "Diplôme",
+            "Relevé de notes officiel",
+            "Documents des diplômes précédents pour les cycles supérieurs",
+            "Autres pièces selon le dossier"
+          ],
+          "steps": [
+            "Entrez dans l’espace personnel.",
+            "Choisissez le niveau de diplôme.",
+            "Préparez les copies certifiées de chaque page.",
+            "Envoyez la demande et les pièces.",
+            "Répondez rapidement aux demandes de complément."
+          ],
+          "timing": "Avant de postuler à un emploi public ou concours exigeant l’évaluation.",
+          "cost": "La procédure est généralement gratuite; certification par avocat ou traduction peuvent être payantes, tandis qu’un conseiller peut certifier gratuitement dans certains cas.",
+          "channel": "En ligne via l’espace personnel du ministère.",
+          "after": "Téléchargez et conservez l’attestation officielle.",
+          "mistakes": [
+            "Envoyer de simples scans lorsque des copies certifiées sont requises.",
+            "Demander l’évaluation d’un Master ou doctorat sans la chaîne des diplômes précédents."
+          ],
+          "notes": "Les documents en anglais, espagnol, français, russe ou ukrainien ne nécessitent généralement pas de traduction; vérifiez les règles actuelles."
+        },
+        "ko": {
+          "title": "해외 대학 학위 평가받기",
+          "summary": "공공부문 급여등급, 공무원 채용·입찰과 직업 정착을 위해 해외 학위의 이스라엘 기준 평가를 신청합니다.",
+          "who": [
+            "해외 대학 학위를 가진 대상 신규 올레"
+          ],
+          "documents": [
+            "원본대조 인증된 신분증 사본",
+            "학위증",
+            "공식 성적증명서",
+            "석·박사의 경우 이전 학위 자료",
+            "이름변경·출입국·원격교육 등 해당 추가자료"
+          ],
+          "steps": [
+            "알리야·통합부 개인계정에 들어갑니다.",
+            "학위단계를 선택합니다.",
+            "요구된 모든 페이지의 인증사본을 준비합니다.",
+            "온라인 신청과 첨부자료를 제출합니다.",
+            "보완요청에 신속히 답합니다."
+          ],
+          "timing": "학위평가가 필요한 공공부문 일자리나 채용에 지원하기 전.",
+          "cost": "기관 심사는 일반적으로 무료지만 변호사 인증이나 번역비가 들 수 있습니다. 대상자는 흡수 상담사에게 무료 원본대조를 받을 수 있습니다.",
+          "channel": "알리야·통합부 개인계정을 통한 온라인 신청.",
+          "after": "공식 평가서를 내려받아 안전하게 보관하고 요구되는 곳에 제출합니다.",
+          "mistakes": [
+            "원본대조가 필요한데 일반 스캔만 올리는 것.",
+            "석사·박사 신청 때 이전 학위 평가자료를 빠뜨리는 것."
+          ],
+          "notes": "영어·스페인어·프랑스어·러시아어·우크라이나어 문서는 일반적으로 번역이 필요 없지만 최신 규정을 확인하세요."
+        }
+      }
+    },
+    {
+      "id": "foreign-license-conversion",
+      "category": "transport",
+      "stage": "whenNeeded",
+      "priority": "medium",
+      "agency": {
+        "en": "Ministry of Transport and Road Safety",
+        "he": "משרד התחבורה והבטיחות בדרכים",
+        "fr": "Ministère des Transports et de la Sécurité routière",
+        "ko": "교통·도로안전부"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/convert_driving_license",
+      "translations": {
+        "en": {
+          "title": "Convert a foreign driving licence",
+          "summary": "Check whether and how your foreign licence can be converted to an Israeli licence, including identity, medical, test, and appointment requirements.",
+          "who": [
+            "New immigrants, returning residents, and other eligible holders of a valid foreign licence"
+          ],
+          "documents": [
+            "Israeli ID and status documents",
+            "Valid foreign driving licence",
+            "Entry or residence history where requested",
+            "Medical, eyesight, translation, or authenticity documents depending on the case"
+          ],
+          "steps": [
+            "Open the official conversion service and choose your status.",
+            "Check eligibility and exemptions for your licence history.",
+            "Complete required medical or eyesight steps.",
+            "Book the required service point or test.",
+            "Pay and complete issuance when approved."
+          ],
+          "timing": "Soon after arrival if you plan to drive; do not wait until a temporary right to drive may expire.",
+          "cost": "Fees depend on required tests, examinations, and licence issuance.",
+          "channel": "Online information and forms, approved medical/optical providers, licensing offices, and tests depending on the case.",
+          "after": "Confirm the Israeli licence categories and validity date before driving.",
+          "mistakes": [
+            "Assuming every foreign licence converts without a test.",
+            "Driving after the permitted period without verifying Israeli validity."
+          ],
+          "notes": "Rules differ by status, country, licence history, and vehicle category. Use the official service as the final checklist."
+        },
+        "he": {
+          "title": "המרת רישיון נהיגה זר",
+          "summary": "בדקו כיצד ניתן להמיר רישיון זר לרישיון ישראלי, כולל זיהוי, בדיקות, מבחנים ותורים.",
+          "who": [
+            "עולים, תושבים חוזרים ומחזיקי רישיון זר זכאים"
+          ],
+          "documents": [
+            "תעודת זהות ומסמכי מעמד",
+            "רישיון זר תקף",
+            "היסטוריית כניסות או מגורים לפי דרישה",
+            "מסמכי בריאות, ראייה, תרגום או אימות לפי המקרה"
+          ],
+          "steps": [
+            "פתחו את השירות ובחרו מעמד.",
+            "בדקו זכאות ופטורים.",
+            "השלימו בדיקות נדרשות.",
+            "קבעו תור או מבחן.",
+            "שלמו והשלימו הנפקה לאחר אישור."
+          ],
+          "timing": "בסמוך להגעה אם מתכננים לנהוג.",
+          "cost": "האגרות תלויות בבדיקות, מבחנים והנפקה.",
+          "channel": "מידע וטפסים מקוונים, ספקי בדיקות, משרדי רישוי ומבחנים לפי המקרה.",
+          "after": "בדקו דרגות ותוקף ברישיון הישראלי לפני נהיגה.",
+          "mistakes": [
+            "להניח שכל רישיון מומר ללא מבחן.",
+            "לנהוג לאחר התקופה המותרת בלי לוודא תוקף ישראלי."
+          ],
+          "notes": "הכללים משתנים לפי מעמד, מדינה, ותק ודרגת רכב."
+        },
+        "fr": {
+          "title": "Convertir un permis de conduire étranger",
+          "summary": "Vérifiez comment convertir votre permis en permis israélien, notamment identité, examens, tests et rendez-vous.",
+          "who": [
+            "Nouveaux immigrants, résidents de retour et autres titulaires admissibles d’un permis étranger valide"
+          ],
+          "documents": [
+            "Carte d’identité et statut",
+            "Permis étranger valide",
+            "Historique d’entrées ou de résidence si demandé",
+            "Documents médicaux, vue, traduction ou authenticité selon le cas"
+          ],
+          "steps": [
+            "Ouvrez le service et choisissez votre statut.",
+            "Vérifiez l’admissibilité et les exemptions.",
+            "Effectuez les contrôles requis.",
+            "Prenez rendez-vous ou passez le test.",
+            "Payez et finalisez l’émission après approbation."
+          ],
+          "timing": "Peu après l’arrivée si vous comptez conduire.",
+          "cost": "Les frais dépendent des examens, tests et de l’émission.",
+          "channel": "Informations en ligne, prestataires médicaux, bureaux des permis et tests selon le dossier.",
+          "after": "Vérifiez les catégories et la date de validité du permis israélien.",
+          "mistakes": [
+            "Supposer que tout permis se convertit sans test.",
+            "Conduire au-delà de la période autorisée sans vérifier la validité israélienne."
+          ],
+          "notes": "Les règles varient selon le statut, le pays, l’ancienneté et la catégorie du véhicule."
+        },
+        "ko": {
+          "title": "외국 운전면허를 이스라엘 면허로 전환하기",
+          "summary": "신원, 건강·시력검사, 시험과 예약 요건을 확인해 외국 면허를 이스라엘 면허로 전환합니다.",
+          "who": [
+            "유효한 외국 면허를 가진 신규 올레, 귀환 주민과 기타 대상자"
+          ],
+          "documents": [
+            "이스라엘 신분·지위 자료",
+            "유효한 외국 운전면허",
+            "요구되는 경우 출입국·거주 기록",
+            "상황에 따른 건강·시력·번역·진위증명"
+          ],
+          "steps": [
+            "공식 서비스에서 자신의 지위를 선택합니다.",
+            "면허경력에 따른 자격과 면제를 확인합니다.",
+            "필요한 건강·시력 절차를 마칩니다.",
+            "필요한 지점이나 시험을 예약합니다.",
+            "승인 뒤 비용을 내고 발급을 완료합니다."
+          ],
+          "timing": "운전할 계획이라면 도착 후 가능한 빨리.",
+          "cost": "검사, 시험과 면허 발급에 따라 달라집니다.",
+          "channel": "온라인 안내·양식, 승인된 검사기관, 면허사무소와 필요한 시험.",
+          "after": "운전 전에 이스라엘 면허의 차종과 유효기간을 확인합니다.",
+          "mistakes": [
+            "모든 외국 면허가 시험 없이 전환된다고 생각하는 것.",
+            "허용기간이 지난 뒤 이스라엘 유효성을 확인하지 않고 운전하는 것."
+          ],
+          "notes": "규칙은 지위, 국가, 면허경력과 차종에 따라 다르므로 공식 서비스를 최종 기준으로 사용하세요."
+        }
+      }
+    },
+    {
+      "id": "tax-relief-2026",
+      "category": "tax",
+      "stage": "whenNeeded",
+      "priority": "medium",
+      "agency": {
+        "en": "Israel Tax Authority",
+        "he": "רשות המסים בישראל",
+        "fr": "Autorité fiscale israélienne",
+        "ko": "이스라엘 국세청"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/tax-relief-new-immigrants",
+      "translations": {
+        "en": {
+          "title": "Apply for the 2026–2030 temporary tax-relief route",
+          "summary": "A special route is available for certain new immigrants and veteran returning residents who arrived in the stated 2025–2026 window and meet the current conditions.",
+          "who": [
+            "New immigrants and veteran returning residents who arrived between 5 November 2025 and 31 December 2026 and meet the official criteria"
+          ],
+          "documents": [
+            "Completed Form 116ע",
+            "Oleh or returning-resident certificate",
+            "Entry-and-exit report for the required years for applicant and spouse",
+            "Payslips or income confirmations",
+            "Completed simulator file",
+            "Other relevant tax-relief evidence"
+          ],
+          "steps": [
+            "Confirm that your arrival date and status are within the temporary route.",
+            "Prepare every listed attachment.",
+            "Determine whether online tax coordination or an annual return applies to you.",
+            "Submit through the official route.",
+            "Keep the withholding or advance-payment authorization."
+          ],
+          "timing": "After Israeli income begins and before relying on the benefit in payroll or advance payments.",
+          "cost": "The government application is free; professional tax advice may cost money.",
+          "channel": "Online tax coordination, annual return, or representative route depending on income and filing duties.",
+          "after": "Give the authorization to the relevant employer or use it in tax filings, and check whether an annual return is still required.",
+          "mistakes": [
+            "Assuming this temporary route applies to every Oleh regardless of arrival date.",
+            "Believing the authorization removes an independent duty to file an annual return."
+          ],
+          "notes": "This card covers the specific temporary 2026–2030 route, not every tax rule for Olim. Complex foreign income should be reviewed professionally."
+        },
+        "he": {
+          "title": "בקשה במסלול הטבות המס הזמני 2026–2030",
+          "summary": "מסלול מיוחד חל על עולים ותושבים חוזרים ותיקים מסוימים שהגיעו בחלון 2025–2026 ועומדים בתנאים.",
+          "who": [
+            "עולים ותושבים חוזרים ותיקים שהגיעו בין 5.11.2025 ל־31.12.2026 ועומדים בקריטריונים"
+          ],
+          "documents": [
+            "טופס 116ע",
+            "תעודת עולה או תושב חוזר",
+            "דוח כניסות ויציאות לשנים הנדרשות למבקש ולבן הזוג",
+            "תלושי שכר או אישורי הכנסה",
+            "קובץ סימולטור",
+            "מסמכים נוספים"
+          ],
+          "steps": [
+            "ודאו שתאריך ההגעה והמעמד נכללים במסלול.",
+            "הכינו את כל המסמכים.",
+            "בדקו אם נדרש תיאום מס או דוח שנתי.",
+            "הגישו בערוץ הרשמי.",
+            "שמרו את האישור."
+          ],
+          "timing": "לאחר תחילת הכנסה בישראל ולפני הסתמכות על ההטבה בשכר או במקדמות.",
+          "cost": "הבקשה הממשלתית ללא עלות; ייעוץ מס מקצועי עשוי לעלות.",
+          "channel": "תיאום מס מקוון, דוח שנתי או מייצג לפי ההכנסה וחובות הדיווח.",
+          "after": "מסרו את האישור למעסיק או השתמשו בו בדיווח ובדקו אם עדיין קיימת חובת דוח שנתי.",
+          "mistakes": [
+            "להניח שהמסלול חל על כל עולה ללא קשר לתאריך.",
+            "לחשוב שהאישור מבטל חובת דוח שנתית אחרת."
+          ],
+          "notes": "הכרטיס עוסק במסלול הזמני המסוים ולא בכל דיני המס לעולים. הכנסה מחו״ל עשויה לדרוש ייעוץ מקצועי."
+        },
+        "fr": {
+          "title": "Demander l’allègement fiscal temporaire 2026–2030",
+          "summary": "Une voie spéciale existe pour certains nouveaux immigrants et résidents de retour vétérans arrivés pendant la période 2025–2026 indiquée.",
+          "who": [
+            "Nouveaux immigrants et résidents de retour vétérans arrivés entre le 5 novembre 2025 et le 31 décembre 2026 et remplissant les critères"
+          ],
+          "documents": [
+            "Formulaire 116ע",
+            "Certificat d’Oleh ou de résident de retour",
+            "Relevé des entrées et sorties pour le demandeur et le conjoint",
+            "Fiches de paie ou revenus",
+            "Fichier du simulateur",
+            "Autres preuves pertinentes"
+          ],
+          "steps": [
+            "Confirmez la date et le statut.",
+            "Préparez toutes les pièces.",
+            "Déterminez si vous relevez de la coordination fiscale ou de la déclaration annuelle.",
+            "Déposez par la voie officielle.",
+            "Conservez l’autorisation."
+          ],
+          "timing": "Après le début des revenus israéliens et avant d’utiliser l’avantage sur la paie ou les acomptes.",
+          "cost": "Demande publique gratuite; conseil fiscal professionnel payant éventuel.",
+          "channel": "Coordination fiscale en ligne, déclaration annuelle ou représentant selon revenus et obligations.",
+          "after": "Remettez l’autorisation à l’employeur ou utilisez-la dans les déclarations et vérifiez l’obligation de déclaration annuelle.",
+          "mistakes": [
+            "Supposer que cette mesure s’applique à tous les Olim sans condition de date.",
+            "Croire qu’elle supprime toute autre obligation déclarative."
+          ],
+          "notes": "Cette fiche concerne la mesure temporaire spécifique, pas l’ensemble de la fiscalité des Olim. Les revenus étrangers complexes nécessitent souvent un professionnel."
+        },
+        "ko": {
+          "title": "2026–2030 한시적 올레 세금혜택 신청하기",
+          "summary": "공식 기간인 2025–2026년에 도착하고 조건을 충족한 일부 신규 올레·장기 귀환 주민을 위한 특별 경로입니다.",
+          "who": [
+            "2025년 11월 5일부터 2026년 12월 31일 사이 도착하고 공식 조건을 충족한 신규 올레와 장기 귀환 주민"
+          ],
+          "documents": [
+            "작성된 116ע 양식",
+            "테우닷 올레 또는 귀환 주민 증명",
+            "신청자와 배우자의 요구연도 출입국 기록",
+            "급여명세서 또는 소득증명",
+            "완성된 시뮬레이터 파일",
+            "기타 관련 감면증빙"
+          ],
+          "steps": [
+            "도착일과 지위가 한시 경로에 들어가는지 확인합니다.",
+            "모든 첨부자료를 준비합니다.",
+            "온라인 세금조정 또는 연간신고 중 무엇이 적용되는지 판단합니다.",
+            "공식 경로로 제출합니다.",
+            "원천징수·선납세액 승인서를 보관합니다."
+          ],
+          "timing": "이스라엘 소득이 시작된 뒤, 급여나 선납세액에 혜택을 적용하기 전.",
+          "cost": "정부 신청 무료. 전문 세무상담은 비용이 들 수 있습니다.",
+          "channel": "소득과 신고의무에 따라 온라인 세금조정, 연간신고 또는 대리인 경로.",
+          "after": "승인서를 고용주나 세금신고에 사용하고 별도의 연간신고 의무가 남는지 확인합니다.",
+          "mistakes": [
+            "도착일과 관계없이 모든 올레에게 이 한시 경로가 적용된다고 생각하는 것.",
+            "승인서를 받으면 다른 연간신고 의무도 사라진다고 생각하는 것."
+          ],
+          "notes": "이 카드는 특정 한시 경로만 다루며 올레의 모든 세법을 설명하지 않습니다. 복잡한 해외소득은 전문가 검토가 필요합니다."
+        }
+      }
+    },
+    {
+      "id": "parents-portal",
+      "category": "education",
+      "stage": "firstMonth",
+      "priority": "medium",
+      "agency": {
+        "en": "Ministry of Education",
+        "he": "משרד החינוך",
+        "fr": "Ministère de l’Éducation",
+        "ko": "교육부"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/portal-parents",
+      "translations": {
+        "en": {
+          "title": "Set up and use the Ministry of Education parents portal",
+          "summary": "Use the government parents portal to view registered children and schools, update details, submit declarations and documents, and track inquiries.",
+          "who": [
+            "Parents or guardians of children registered in Israeli educational institutions"
+          ],
+          "documents": [
+            "GovID registration",
+            "Parent and child details as recorded by the education system",
+            "Documents requested for a specific inquiry"
+          ],
+          "steps": [
+            "Register or sign in through GovID.",
+            "Open My Children and verify the child and institution.",
+            "Submit required declarations or updates.",
+            "Save the inquiry reference and track the status."
+          ],
+          "timing": "After school or kindergarten registration and whenever the ministry requests an update.",
+          "cost": "Free.",
+          "channel": "Online parents portal.",
+          "after": "Check that every child and institution is shown correctly and that submitted declarations have a completed status.",
+          "mistakes": [
+            "Assuming municipal school registration automatically creates complete portal data immediately.",
+            "Submitting an inquiry without saving its reference number."
+          ],
+          "notes": "Actual school placement and registration are often handled by the local municipality; the national portal is an additional information and request channel."
+        },
+        "he": {
+          "title": "פתיחה ושימוש בפורטל הורים של משרד החינוך",
+          "summary": "צפייה בילדים ובמוסדות, עדכון פרטים, הגשת הצהרות ומסמכים ומעקב אחר פניות.",
+          "who": [
+            "הורים או אפוטרופוסים לילדים הרשומים במוסדות חינוך בישראל"
+          ],
+          "documents": [
+            "רישום ל־GovID",
+            "פרטי ההורה והילד כפי שנרשמו במערכת",
+            "מסמכים לפנייה מסוימת"
+          ],
+          "steps": [
+            "הירשמו או היכנסו דרך GovID.",
+            "פתחו 'הילדים שלי' ובדקו מוסד וילד.",
+            "הגישו הצהרות או עדכונים.",
+            "שמרו מספר פנייה ועקבו אחר הסטטוס."
+          ],
+          "timing": "לאחר רישום למסגרת ובכל דרישת עדכון.",
+          "cost": "ללא עלות.",
+          "channel": "פורטל הורים מקוון.",
+          "after": "בדקו שכל ילד ומוסד מופיעים נכון ושההצהרות הושלמו.",
+          "mistakes": [
+            "להניח שרישום עירוני מעדכן מיד את כל נתוני הפורטל.",
+            "להגיש פנייה בלי לשמור מספר סימוכין."
+          ],
+          "notes": "הרישום והשיבוץ עצמם מטופלים לעיתים ברשות המקומית; הפורטל הארצי הוא ערוץ נוסף."
+        },
+        "fr": {
+          "title": "Configurer et utiliser le portail des parents",
+          "summary": "Consultez les enfants et établissements enregistrés, mettez à jour les données, envoyez déclarations et documents et suivez les demandes.",
+          "who": [
+            "Parents ou tuteurs d’enfants inscrits dans un établissement israélien"
+          ],
+          "documents": [
+            "Inscription GovID",
+            "Données du parent et de l’enfant dans le système",
+            "Pièces demandées pour une requête"
+          ],
+          "steps": [
+            "Connectez-vous via GovID.",
+            "Ouvrez Mes enfants et vérifiez l’établissement.",
+            "Envoyez déclarations ou mises à jour.",
+            "Conservez la référence et suivez le statut."
+          ],
+          "timing": "Après l’inscription scolaire et chaque fois qu’une mise à jour est demandée.",
+          "cost": "Gratuit.",
+          "channel": "Portail des parents en ligne.",
+          "after": "Vérifiez chaque enfant, établissement et le statut des déclarations.",
+          "mistakes": [
+            "Supposer que l’inscription municipale met immédiatement à jour tout le portail.",
+            "Envoyer une demande sans conserver la référence."
+          ],
+          "notes": "Le placement scolaire est souvent géré par la municipalité; le portail national est un canal complémentaire."
+        },
+        "ko": {
+          "title": "교육부 학부모 포털 등록·이용하기",
+          "summary": "등록된 자녀와 교육기관 확인, 정보수정, 건강선언·서류 제출과 문의상태 확인을 할 수 있습니다.",
+          "who": [
+            "이스라엘 교육기관에 등록된 자녀의 부모 또는 후견인"
+          ],
+          "documents": [
+            "GovID 등록",
+            "교육시스템에 기록된 부모·자녀 정보",
+            "특정 문의에 요구되는 자료"
+          ],
+          "steps": [
+            "GovID로 등록하거나 로그인합니다.",
+            "‘내 자녀’에서 자녀와 기관을 확인합니다.",
+            "필요한 선언·정보수정·서류를 제출합니다.",
+            "문의번호를 저장하고 상태를 추적합니다."
+          ],
+          "timing": "학교·유치원 등록 뒤, 또는 교육부가 정보를 요구할 때.",
+          "cost": "무료.",
+          "channel": "교육부 온라인 학부모 포털.",
+          "after": "모든 자녀와 교육기관이 정확히 표시되고 제출상태가 완료됐는지 확인합니다.",
+          "mistakes": [
+            "지자체 학교등록만으로 전국 포털 정보도 즉시 완성된다고 생각하는 것.",
+            "문의번호를 저장하지 않고 제출하는 것."
+          ],
+          "notes": "실제 학교 배정·등록은 지방자치단체에서 처리되는 경우가 많으며 전국 포털은 추가 정보·문의 경로입니다."
         }
       }
     }
