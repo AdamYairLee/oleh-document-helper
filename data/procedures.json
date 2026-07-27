@@ -1,0 +1,854 @@
+{
+  "ui": {
+    "en": {
+      "brandTagline": "Israeli administration, made clearer",
+      "chooseLanguage": "Choose language",
+      "installApp": "Install app",
+      "navHome": "Home",
+      "navProcedures": "Procedures",
+      "navAnalyzer": "Document analyzer",
+      "navFavorites": "Saved",
+      "heroEyebrow": "For new immigrants and returning residents",
+      "heroTitle": "Understand the process. Prepare the right documents. Know what to do next.",
+      "heroText": "Read clear cards about Israeli public services, required documents, steps, costs, and official links.",
+      "browseProcedures": "Browse procedures",
+      "analyzeDocument": "Analyze a document",
+      "languages": "languages",
+      "verifiedCards": "starter cards",
+      "officialSources": "official-source links",
+      "startHere": "Start here",
+      "popularProcedures": "Important first procedures",
+      "viewAll": "View all",
+      "trustTitle": "Clear guidance, not a government decision",
+      "trustText": "Every card links to an official source and shows when it was last checked. Final eligibility and decisions remain with the relevant authority.",
+      "independentService": "Independent information service",
+      "knowledgeBase": "Knowledge base",
+      "proceduresTitle": "Israeli administration procedures",
+      "proceduresIntro": "Search by a task, document, benefit, or government authority.",
+      "searchLabel": "Search procedures",
+      "searchPlaceholder": "Search: ID card, health fund, absorption basket…",
+      "clearFilters": "Clear filters",
+      "noResultsTitle": "No matching procedure found",
+      "noResultsText": "Try a different word or clear the category filter.",
+      "nextModule": "Next module",
+      "analyzerTitle": "Document analyzer",
+      "analyzerIntro": "The production version will identify the authority, document type, dates, required actions, and matching procedure cards.",
+      "uploadTitle": "Upload a PDF or photo",
+      "uploadPrivacy": "For this first build, files stay in your browser and are not sent to a server.",
+      "chooseFile": "Choose a file",
+      "fileTypes": "PDF, JPG, or PNG",
+      "runDemo": "Show demo result",
+      "demoNotice": "Demo only: this version does not read the document yet.",
+      "demo": "Demo",
+      "sampleResult": "Sample analysis result",
+      "sampleDocTitle": "Possible request for additional documents",
+      "authority": "Authority",
+      "sampleAuthority": "National Insurance Institute",
+      "importance": "Importance",
+      "high": "High",
+      "deadline": "Deadline",
+      "notDetected": "Not detected in demo",
+      "whatToDo": "What to do",
+      "demoAction1": "Check the requested document name in the original letter.",
+      "demoAction2": "Open the matching official personal account.",
+      "demoAction3": "Keep the submission confirmation after uploading.",
+      "openRelatedCard": "Open related guidance card",
+      "yourList": "Your list",
+      "favoritesTitle": "Saved procedures",
+      "favoritesIntro": "Saved cards remain on this device.",
+      "noFavoritesTitle": "No saved procedures yet",
+      "noFavoritesText": "Use the star button on a procedure card to save it here.",
+      "back": "Back",
+      "footerText": "Independent multilingual guidance for Israeli public administration.",
+      "disclaimer": "This is not a government authority, law office, accounting office, or eligibility decision service.",
+      "openGuide": "Open guide",
+      "all": "All",
+      "aliyah": "Aliyah & integration",
+      "identity": "Identity & registry",
+      "health": "Health & insurance",
+      "employment": "Employment",
+      "results": "results",
+      "result": "result",
+      "steps": "steps",
+      "step": "step",
+      "whoIsItFor": "Who is it for?",
+      "documentsNeeded": "Documents to prepare",
+      "procedureSteps": "Procedure steps",
+      "importantNotes": "Important notes",
+      "officialReference": "Official reference",
+      "lastChecked": "Last checked",
+      "openOfficial": "Open official service"
+    },
+    "he": {
+      "brandTagline": "מינהל ישראלי, בצורה ברורה יותר",
+      "chooseLanguage": "בחירת שפה",
+      "installApp": "התקנת האפליקציה",
+      "navHome": "בית",
+      "navProcedures": "הליכים",
+      "navAnalyzer": "ניתוח מסמך",
+      "navFavorites": "שמורים",
+      "heroEyebrow": "לעולים חדשים ולתושבים חוזרים",
+      "heroTitle": "להבין את התהליך. להכין את המסמכים הנכונים. לדעת מה עושים עכשיו.",
+      "heroText": "כרטיסי מידע ברורים על שירותים ציבוריים בישראל, מסמכים נדרשים, שלבים וקישורים רשמיים.",
+      "browseProcedures": "עיון בהליכים",
+      "analyzeDocument": "ניתוח מסמך",
+      "languages": "שפות",
+      "verifiedCards": "כרטיסי התחלה",
+      "officialSources": "קישורים למקורות רשמיים",
+      "startHere": "מתחילים כאן",
+      "popularProcedures": "הליכים ראשונים חשובים",
+      "viewAll": "לכל ההליכים",
+      "trustTitle": "הכוונה ברורה, לא החלטה של רשות",
+      "trustText": "כל כרטיס מקשר למקור רשמי ומציג את מועד הבדיקה האחרון. ההחלטות והזכאות נקבעות בידי הרשות המוסמכת.",
+      "independentService": "שירות מידע עצמאי",
+      "knowledgeBase": "מאגר מידע",
+      "proceduresTitle": "הליכים במינהל הציבורי בישראל",
+      "proceduresIntro": "חיפוש לפי משימה, מסמך, זכות או רשות.",
+      "searchLabel": "חיפוש הליכים",
+      "searchPlaceholder": "חיפוש: תעודת זהות, קופת חולים, סל קליטה…",
+      "clearFilters": "ניקוי סינון",
+      "noResultsTitle": "לא נמצא הליך מתאים",
+      "noResultsText": "נסו מילה אחרת או נקו את סינון הקטגוריה.",
+      "nextModule": "המודול הבא",
+      "analyzerTitle": "מנתח מסמכים",
+      "analyzerIntro": "בגרסה המלאה המערכת תזהה רשות, סוג מסמך, תאריכים, פעולות נדרשות וכרטיסי מידע קשורים.",
+      "uploadTitle": "העלאת PDF או תמונה",
+      "uploadPrivacy": "בגרסה הראשונה הקבצים נשארים בדפדפן ואינם נשלחים לשרת.",
+      "chooseFile": "בחירת קובץ",
+      "fileTypes": "PDF, JPG או PNG",
+      "runDemo": "הצגת תוצאת הדגמה",
+      "demoNotice": "הדגמה בלבד: גרסה זו עדיין אינה קוראת את המסמך.",
+      "demo": "הדגמה",
+      "sampleResult": "תוצאת ניתוח לדוגמה",
+      "sampleDocTitle": "בקשה אפשרית למסמכים נוספים",
+      "authority": "רשות",
+      "sampleAuthority": "המוסד לביטוח לאומי",
+      "importance": "חשיבות",
+      "high": "גבוהה",
+      "deadline": "מועד אחרון",
+      "notDetected": "לא זוהה בהדגמה",
+      "whatToDo": "מה לעשות",
+      "demoAction1": "בדקו את שם המסמך המבוקש במכתב המקורי.",
+      "demoAction2": "פתחו את האזור האישי הרשמי המתאים.",
+      "demoAction3": "שמרו אישור לאחר העלאת המסמך.",
+      "openRelatedCard": "פתיחת כרטיס מידע קשור",
+      "yourList": "הרשימה שלכם",
+      "favoritesTitle": "הליכים שמורים",
+      "favoritesIntro": "הכרטיסים נשמרים במכשיר זה.",
+      "noFavoritesTitle": "עדיין אין הליכים שמורים",
+      "noFavoritesText": "לחצו על הכוכב בכרטיס כדי לשמור אותו כאן.",
+      "back": "חזרה",
+      "footerText": "מידע עצמאי ורב-לשוני על המינהל הציבורי בישראל.",
+      "disclaimer": "השירות אינו רשות ממשלתית, משרד עורכי דין, משרד רואי חשבון או שירות לקביעת זכאות.",
+      "openGuide": "פתיחת המדריך",
+      "all": "הכול",
+      "aliyah": "עלייה וקליטה",
+      "identity": "זהות ומרשם",
+      "health": "בריאות וביטוח",
+      "employment": "תעסוקה",
+      "results": "תוצאות",
+      "result": "תוצאה",
+      "steps": "שלבים",
+      "step": "שלב",
+      "whoIsItFor": "למי השירות מיועד?",
+      "documentsNeeded": "מסמכים להכנה",
+      "procedureSteps": "שלבי ההליך",
+      "importantNotes": "הערות חשובות",
+      "officialReference": "מקור רשמי",
+      "lastChecked": "נבדק לאחרונה",
+      "openOfficial": "פתיחת השירות הרשמי"
+    },
+    "fr": {
+      "brandTagline": "L’administration israélienne, plus claire",
+      "chooseLanguage": "Choisir la langue",
+      "installApp": "Installer l’application",
+      "navHome": "Accueil",
+      "navProcedures": "Démarches",
+      "navAnalyzer": "Analyser un document",
+      "navFavorites": "Enregistrés",
+      "heroEyebrow": "Pour les nouveaux immigrants et résidents de retour",
+      "heroTitle": "Comprendre la démarche. Préparer les bons documents. Savoir quoi faire ensuite.",
+      "heroText": "Des fiches claires sur les services publics israéliens, les pièces requises, les étapes et les liens officiels.",
+      "browseProcedures": "Voir les démarches",
+      "analyzeDocument": "Analyser un document",
+      "languages": "langues",
+      "verifiedCards": "fiches initiales",
+      "officialSources": "liens officiels",
+      "startHere": "Commencer ici",
+      "popularProcedures": "Premières démarches importantes",
+      "viewAll": "Tout afficher",
+      "trustTitle": "Des explications claires, pas une décision administrative",
+      "trustText": "Chaque fiche renvoie à une source officielle et indique sa date de vérification. L’admissibilité et les décisions relèvent de l’autorité compétente.",
+      "independentService": "Service d’information indépendant",
+      "knowledgeBase": "Base de connaissances",
+      "proceduresTitle": "Démarches administratives en Israël",
+      "proceduresIntro": "Recherchez une tâche, un document, une aide ou une administration.",
+      "searchLabel": "Rechercher une démarche",
+      "searchPlaceholder": "Rechercher : carte d’identité, caisse de santé, panier d’intégration…",
+      "clearFilters": "Effacer les filtres",
+      "noResultsTitle": "Aucune démarche correspondante",
+      "noResultsText": "Essayez un autre mot ou effacez le filtre de catégorie.",
+      "nextModule": "Prochain module",
+      "analyzerTitle": "Analyseur de documents",
+      "analyzerIntro": "La version complète identifiera l’administration, le type de document, les dates, les actions et les fiches correspondantes.",
+      "uploadTitle": "Importer un PDF ou une photo",
+      "uploadPrivacy": "Dans cette première version, les fichiers restent dans le navigateur et ne sont pas envoyés à un serveur.",
+      "chooseFile": "Choisir un fichier",
+      "fileTypes": "PDF, JPG ou PNG",
+      "runDemo": "Afficher le résultat de démonstration",
+      "demoNotice": "Démonstration uniquement : cette version ne lit pas encore le document.",
+      "demo": "Démo",
+      "sampleResult": "Exemple de résultat",
+      "sampleDocTitle": "Demande possible de documents complémentaires",
+      "authority": "Administration",
+      "sampleAuthority": "Institut national d’assurance",
+      "importance": "Importance",
+      "high": "Élevée",
+      "deadline": "Date limite",
+      "notDetected": "Non détectée dans la démo",
+      "whatToDo": "Que faire",
+      "demoAction1": "Vérifiez le nom du document demandé dans la lettre originale.",
+      "demoAction2": "Ouvrez l’espace personnel officiel correspondant.",
+      "demoAction3": "Conservez la confirmation après l’envoi.",
+      "openRelatedCard": "Ouvrir la fiche associée",
+      "yourList": "Votre liste",
+      "favoritesTitle": "Démarches enregistrées",
+      "favoritesIntro": "Les fiches restent enregistrées sur cet appareil.",
+      "noFavoritesTitle": "Aucune démarche enregistrée",
+      "noFavoritesText": "Utilisez l’étoile d’une fiche pour l’enregistrer ici.",
+      "back": "Retour",
+      "footerText": "Informations multilingues indépendantes sur l’administration israélienne.",
+      "disclaimer": "Ce service n’est ni une autorité publique, ni un cabinet juridique ou comptable, ni un service de décision d’admissibilité.",
+      "openGuide": "Ouvrir le guide",
+      "all": "Toutes",
+      "aliyah": "Alya et intégration",
+      "identity": "Identité et registre",
+      "health": "Santé et assurance",
+      "employment": "Emploi",
+      "results": "résultats",
+      "result": "résultat",
+      "steps": "étapes",
+      "step": "étape",
+      "whoIsItFor": "Pour qui ?",
+      "documentsNeeded": "Documents à préparer",
+      "procedureSteps": "Étapes de la démarche",
+      "importantNotes": "Remarques importantes",
+      "officialReference": "Référence officielle",
+      "lastChecked": "Dernière vérification",
+      "openOfficial": "Ouvrir le service officiel"
+    },
+    "ko": {
+      "brandTagline": "이스라엘 행정을 더 명확하게",
+      "chooseLanguage": "언어 선택",
+      "installApp": "앱 설치",
+      "navHome": "홈",
+      "navProcedures": "행정 절차",
+      "navAnalyzer": "문서 분석",
+      "navFavorites": "저장됨",
+      "heroEyebrow": "신규 올레와 귀환 주민을 위한 서비스",
+      "heroTitle": "절차를 이해하고, 필요한 서류를 준비하고, 다음 행동을 확인하세요.",
+      "heroText": "이스라엘 공공서비스의 대상, 필요서류, 처리 단계와 공식 링크를 읽기 쉬운 카드로 제공합니다.",
+      "browseProcedures": "행정 절차 보기",
+      "analyzeDocument": "문서 분석하기",
+      "languages": "지원 언어",
+      "verifiedCards": "초기 안내 카드",
+      "officialSources": "공식 출처 링크",
+      "startHere": "여기서 시작하세요",
+      "popularProcedures": "중요한 초기 행정 절차",
+      "viewAll": "전체 보기",
+      "trustTitle": "명확한 안내이지만 정부의 결정은 아닙니다",
+      "trustText": "각 카드에는 공식 출처와 마지막 확인일이 표시됩니다. 최종 자격과 결정은 해당 기관의 공식 판단이 우선합니다.",
+      "independentService": "독립 정보 서비스",
+      "knowledgeBase": "행정정보 자료실",
+      "proceduresTitle": "이스라엘 행정 절차",
+      "proceduresIntro": "업무, 문서, 혜택이나 정부기관 이름으로 검색하세요.",
+      "searchLabel": "행정 절차 검색",
+      "searchPlaceholder": "검색: 테우닷 제후트, 쿠파트 홀림, 살 클리타…",
+      "clearFilters": "필터 초기화",
+      "noResultsTitle": "일치하는 절차가 없습니다",
+      "noResultsText": "다른 단어를 입력하거나 분야 필터를 초기화해 보세요.",
+      "nextModule": "다음 개발 모듈",
+      "analyzerTitle": "공문서 분석기",
+      "analyzerIntro": "정식 버전에서는 발신기관, 문서 종류, 날짜, 요구 행동과 연결되는 행정정보 카드를 찾아줍니다.",
+      "uploadTitle": "PDF 또는 사진 올리기",
+      "uploadPrivacy": "첫 제작본에서는 파일이 브라우저 안에만 머물며 서버로 전송되지 않습니다.",
+      "chooseFile": "파일 선택",
+      "fileTypes": "PDF, JPG 또는 PNG",
+      "runDemo": "예시 분석 결과 보기",
+      "demoNotice": "데모 전용: 현재 버전은 실제 문서를 아직 읽지 않습니다.",
+      "demo": "데모",
+      "sampleResult": "분석 결과 예시",
+      "sampleDocTitle": "추가서류 요청일 가능성이 있습니다",
+      "authority": "기관",
+      "sampleAuthority": "비투아흐 레우미",
+      "importance": "중요도",
+      "high": "높음",
+      "deadline": "기한",
+      "notDetected": "데모에서는 확인되지 않음",
+      "whatToDo": "해야 할 일",
+      "demoAction1": "원문에서 요청된 서류의 정확한 이름을 확인합니다.",
+      "demoAction2": "관련 기관의 공식 개인계정을 엽니다.",
+      "demoAction3": "서류 제출 후 접수 확인을 보관합니다.",
+      "openRelatedCard": "관련 행정카드 열기",
+      "yourList": "내 목록",
+      "favoritesTitle": "저장한 행정 절차",
+      "favoritesIntro": "저장한 카드는 현재 기기에 보관됩니다.",
+      "noFavoritesTitle": "저장한 절차가 없습니다",
+      "noFavoritesText": "행정카드의 별표 버튼을 눌러 여기에 저장하세요.",
+      "back": "뒤로",
+      "footerText": "이스라엘 공공행정을 위한 독립 다국어 안내 서비스입니다.",
+      "disclaimer": "본 서비스는 정부기관, 법률사무소, 회계사무소 또는 자격 판정 서비스가 아닙니다.",
+      "openGuide": "안내 열기",
+      "all": "전체",
+      "aliyah": "알리야·정착",
+      "identity": "신분·인구등록",
+      "health": "건강·보험",
+      "employment": "취업",
+      "results": "개 결과",
+      "result": "개 결과",
+      "steps": "단계",
+      "step": "단계",
+      "whoIsItFor": "누가 이용하나요?",
+      "documentsNeeded": "준비할 서류",
+      "procedureSteps": "처리 순서",
+      "importantNotes": "중요한 주의사항",
+      "officialReference": "공식 출처",
+      "lastChecked": "마지막 확인",
+      "openOfficial": "공식 서비스 열기"
+    }
+  },
+  "procedures": [
+    {
+      "id": "aliyah-personal-account",
+      "category": "aliyah",
+      "agency": {
+        "en": "Ministry of Aliyah and Integration",
+        "he": "משרד העלייה והקליטה",
+        "fr": "Ministère de l’Alya et de l’Intégration",
+        "ko": "알리야·통합부"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/private-area-new-immigrants-and-returning-residents",
+      "translations": {
+        "en": {
+          "title": "Open the New Olim personal account",
+          "summary": "View payments and benefits, download confirmations, contact an integration adviser, update details, and read ministry correspondence.",
+          "who": [
+            "New immigrants",
+            "Returning residents eligible for ministry services"
+          ],
+          "documents": [
+            "Details needed for National Identification System registration",
+            "Two supported identity-verification methods"
+          ],
+          "steps": [
+            "Open the official personal-account service.",
+            "Complete the one-time National Identification System registration.",
+            "Enter the personal area and check payments, documents, messages, and appointments."
+          ],
+          "notes": "The official personal account is marked as a beta service. Available functions can change."
+        },
+        "he": {
+          "title": "פתיחת האזור האישי לעולים חדשים",
+          "summary": "צפייה בתשלומים ובסיוע, הפקת אישורים, פנייה ליועץ קליטה, עדכון פרטים וקריאת מסמכים מהמשרד.",
+          "who": [
+            "עולים חדשים",
+            "תושבים חוזרים הזכאים לשירותי המשרד"
+          ],
+          "documents": [
+            "פרטים להרשמה למערכת ההזדהות הלאומית",
+            "שתי דרכי אימות זהות נתמכות"
+          ],
+          "steps": [
+            "היכנסו לשירות הרשמי של האזור האישי.",
+            "השלימו הרשמה חד-פעמית למערכת ההזדהות הלאומית.",
+            "בדקו תשלומים, מסמכים, הודעות ותורים באזור האישי."
+          ],
+          "notes": "האזור האישי מוגדר באתר הרשמי כשירות בטא, והאפשרויות עשויות להשתנות."
+        },
+        "fr": {
+          "title": "Ouvrir l’espace personnel des nouveaux immigrants",
+          "summary": "Consultez les paiements et aides, téléchargez des attestations, contactez un conseiller et lisez les courriers du ministère.",
+          "who": [
+            "Nouveaux immigrants",
+            "Résidents de retour admissibles aux services du ministère"
+          ],
+          "documents": [
+            "Informations nécessaires à l’inscription au système national d’identification",
+            "Deux méthodes d’identification prises en charge"
+          ],
+          "steps": [
+            "Ouvrez le service officiel de l’espace personnel.",
+            "Effectuez l’inscription unique au système national d’identification.",
+            "Consultez paiements, documents, messages et rendez-vous."
+          ],
+          "notes": "Le portail officiel indique que l’espace personnel est encore en version bêta."
+        },
+        "ko": {
+          "title": "올림 개인계정 개설하기",
+          "summary": "지원금과 지급내역 확인, 증명서 발급, 흡수 상담사 문의, 개인정보 수정과 정부 문서 확인을 할 수 있습니다.",
+          "who": [
+            "신규 올레",
+            "알리야·통합부 서비스 대상 귀환 주민"
+          ],
+          "documents": [
+            "국가 신원확인 시스템 등록에 필요한 정보",
+            "지원되는 신원확인 방법 두 가지"
+          ],
+          "steps": [
+            "공식 올림 개인계정 페이지를 엽니다.",
+            "국가 신원확인 시스템에 1회 등록합니다.",
+            "계정에서 지급내역, 문서, 메시지와 예약을 확인합니다."
+          ],
+          "notes": "공식 페이지는 개인계정을 베타 서비스로 표시하고 있으며 제공 기능이 달라질 수 있습니다."
+        }
+      }
+    },
+    {
+      "id": "absorption-basket",
+      "category": "aliyah",
+      "agency": {
+        "en": "Ministry of Aliyah and Integration",
+        "he": "משרד העלייה והקליטה",
+        "fr": "Ministère de l’Alya et de l’Intégration",
+        "ko": "알리야·통합부"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/pages/new-olim-rights-guide?chapterindex=12",
+      "translations": {
+        "en": {
+          "title": "Check Absorption Basket payments",
+          "summary": "The Absorption Basket is initial financial assistance. Later payments generally depend on having an Israeli bank account and providing its details to the ministry.",
+          "who": [
+            "New immigrants whose eligibility has been recognized"
+          ],
+          "documents": [
+            "Teudat Oleh or eligibility certificate",
+            "Israeli bank-account confirmation",
+            "Israeli ID details when available"
+          ],
+          "steps": [
+            "Check the first-payment information received during initial absorption.",
+            "Open an Israeli bank account.",
+            "Provide the bank-account details through the ministry’s approved channel.",
+            "Check actual payments and personal eligibility in the official personal account."
+          ],
+          "notes": "Payment amount and eligibility depend on personal circumstances. Use the official calculator only as an estimate."
+        },
+        "he": {
+          "title": "בדיקת תשלומי סל קליטה",
+          "summary": "סל הקליטה הוא סיוע כספי ראשוני. המשך התשלומים תלוי בדרך כלל בפתיחת חשבון בנק ישראלי ובהעברת פרטיו למשרד.",
+          "who": [
+            "עולים חדשים שהוכרה זכאותם"
+          ],
+          "documents": [
+            "תעודת עולה או תעודת זכאות",
+            "אישור חשבון בנק ישראלי",
+            "פרטי תעודת זהות, אם קיימים"
+          ],
+          "steps": [
+            "בדקו את המידע על התשלום הראשון שקיבלתם בתהליך הקליטה.",
+            "פתחו חשבון בנק ישראלי.",
+            "העבירו את פרטי החשבון בערוץ הרשמי של המשרד.",
+            "בדקו תשלומים וזכאות אישית באזור האישי."
+          ],
+          "notes": "גובה התשלום והזכאות תלויים בנסיבות האישיות. תוצאות המחשבון הרשמי הן הערכה בלבד."
+        },
+        "fr": {
+          "title": "Vérifier les paiements du panier d’intégration",
+          "summary": "Le panier d’intégration est une aide financière initiale. Les versements suivants nécessitent généralement un compte bancaire israélien enregistré auprès du ministère.",
+          "who": [
+            "Nouveaux immigrants dont l’admissibilité a été reconnue"
+          ],
+          "documents": [
+            "Certificat d’immigrant ou d’admissibilité",
+            "Attestation de compte bancaire israélien",
+            "Données de la carte d’identité, si disponibles"
+          ],
+          "steps": [
+            "Vérifiez les informations concernant le premier versement.",
+            "Ouvrez un compte bancaire israélien.",
+            "Transmettez les coordonnées bancaires par le canal officiel.",
+            "Consultez les paiements réels dans l’espace personnel."
+          ],
+          "notes": "Le montant et l’admissibilité dépendent de la situation personnelle. Le calculateur officiel ne fournit qu’une estimation."
+        },
+        "ko": {
+          "title": "살 클리타 지급 확인하기",
+          "summary": "살 클리타는 초기 정착 지원금입니다. 이후 지급을 받으려면 일반적으로 이스라엘 은행계좌를 개설하고 계좌 정보를 알리야·통합부에 등록해야 합니다.",
+          "who": [
+            "올레 자격과 지원 대상이 확인된 신규 이민자"
+          ],
+          "documents": [
+            "테우닷 올레 또는 자격증명",
+            "이스라엘 은행계좌 확인서",
+            "발급된 경우 테우닷 제후트 정보"
+          ],
+          "steps": [
+            "초기 정착 과정에서 받은 첫 지급 안내를 확인합니다.",
+            "이스라엘 은행계좌를 개설합니다.",
+            "공식 경로로 계좌 정보를 알리야·통합부에 제출합니다.",
+            "실제 지급과 개인별 자격은 공식 개인계정에서 확인합니다."
+          ],
+          "notes": "지급액과 자격은 개인 상황에 따라 달라집니다. 공식 계산기 결과도 예상치입니다."
+        }
+      }
+    },
+    {
+      "id": "israeli-id-card",
+      "category": "identity",
+      "agency": {
+        "en": "Population and Immigration Authority",
+        "he": "רשות האוכלוסין וההגירה",
+        "fr": "Autorité de la population et de l’immigration",
+        "ko": "인구이민청"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/biometric_smart_id_request",
+      "translations": {
+        "en": {
+          "title": "Apply for an Israeli ID card",
+          "summary": "Applications for a first or replacement biometric Israeli ID card require an appointment, an in-person application, and activation.",
+          "who": [
+            "People applying for their first Israeli ID card",
+            "People replacing or updating an existing ID card"
+          ],
+          "documents": [
+            "Documents requested by the official service for your specific application type",
+            "Existing identification or immigration documents where applicable"
+          ],
+          "steps": [
+            "Open the official ID-card service.",
+            "Select the application situation that applies to you.",
+            "Schedule an appointment if required.",
+            "Attend in person with the listed original documents.",
+            "Activate the card after it is issued."
+          ],
+          "notes": "Required documents differ by application type. Check the official service immediately before the appointment."
+        },
+        "he": {
+          "title": "הגשת בקשה לתעודת זהות ישראלית",
+          "summary": "בקשה לתעודת זהות ביומטרית ראשונה או חלופית דורשת בחירת סוג הבקשה, הגעה אישית והפעלת התעודה.",
+          "who": [
+            "מבקשי תעודת זהות ראשונה",
+            "מי שמחליפים או מעדכנים תעודה קיימת"
+          ],
+          "documents": [
+            "המסמכים המופיעים בשירות הרשמי לפי סוג הבקשה",
+            "מסמכי זיהוי או עלייה קיימים, לפי הצורך"
+          ],
+          "steps": [
+            "פתחו את שירות תעודת הזהות הרשמי.",
+            "בחרו את סוג הבקשה המתאים.",
+            "קבעו תור אם נדרש.",
+            "הגיעו אישית עם המסמכים המקוריים.",
+            "הפעילו את התעודה לאחר הנפקתה."
+          ],
+          "notes": "המסמכים משתנים לפי סוג הבקשה. יש לבדוק את הדף הרשמי סמוך למועד התור."
+        },
+        "fr": {
+          "title": "Demander une carte d’identité israélienne",
+          "summary": "La première demande ou le remplacement d’une carte biométrique nécessite de choisir le type de demande, de se présenter en personne et d’activer la carte.",
+          "who": [
+            "Personnes demandant leur première carte d’identité",
+            "Personnes remplaçant ou modifiant une carte existante"
+          ],
+          "documents": [
+            "Documents indiqués par le service officiel selon le type de demande",
+            "Documents d’identité ou d’immigration existants, le cas échéant"
+          ],
+          "steps": [
+            "Ouvrez le service officiel.",
+            "Choisissez le type de demande correspondant.",
+            "Prenez rendez-vous si nécessaire.",
+            "Présentez-vous avec les originaux demandés.",
+            "Activez la carte après sa délivrance."
+          ],
+          "notes": "Les pièces diffèrent selon la situation. Vérifiez la page officielle peu avant le rendez-vous."
+        },
+        "ko": {
+          "title": "이스라엘 테우닷 제후트 신청하기",
+          "summary": "첫 생체인식 신분증 발급이나 기존 신분증 교체는 신청 유형 선택, 직접 방문과 발급 후 활성화 절차가 필요합니다.",
+          "who": [
+            "이스라엘 신분증을 처음 신청하는 사람",
+            "기존 신분증을 교체하거나 정보를 변경하는 사람"
+          ],
+          "documents": [
+            "신청 유형별 공식 페이지에 표시된 서류",
+            "해당되는 경우 기존 신분증·알리야 관련 원본 문서"
+          ],
+          "steps": [
+            "공식 신분증 신청 페이지를 엽니다.",
+            "자신에게 해당하는 신청 유형을 선택합니다.",
+            "필요하면 방문 예약을 합니다.",
+            "요구된 원본 서류를 가지고 직접 방문합니다.",
+            "발급된 신분증을 활성화합니다."
+          ],
+          "notes": "신청 유형에 따라 요구 서류가 달라집니다. 방문 직전에 공식 페이지를 다시 확인해야 합니다."
+        }
+      }
+    },
+    {
+      "id": "health-fund-registration",
+      "category": "health",
+      "agency": {
+        "en": "National Insurance Institute",
+        "he": "המוסד לביטוח לאומי",
+        "fr": "Institut national d’assurance",
+        "ko": "비투아흐 레우미"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.btl.gov.il/English%20Homepage/Insurance/Health%20Insurance/Registration/Pages/olim.aspx",
+      "translations": {
+        "en": {
+          "title": "Register with a health fund",
+          "summary": "A new immigrant can register with an HMO during initial absorption, at a post office if not registered there, or online after the ministry data reaches National Insurance.",
+          "who": [
+            "New immigrants who need to choose an Israeli HMO"
+          ],
+          "documents": [
+            "Israeli ID card for post-office registration",
+            "Identification details requested by the online service"
+          ],
+          "steps": [
+            "Check whether you were registered during the airport absorption process.",
+            "If not, use an approved post-office branch or the online route when available.",
+            "Keep the registration confirmation.",
+            "Contact a National Insurance branch if more than 90 days have passed since Aliyah."
+          ],
+          "notes": "Online registration becomes available after the relevant personal data is integrated. Post-office registration may have a fee; the online service is free."
+        },
+        "he": {
+          "title": "רישום לקופת חולים",
+          "summary": "עולה חדש יכול להירשם לקופת חולים בתהליך הקליטה הראשוני, בסניף דואר אם לא נרשם שם, או באינטרנט לאחר קליטת הנתונים בביטוח הלאומי.",
+          "who": [
+            "עולים חדשים שצריכים לבחור קופת חולים"
+          ],
+          "documents": [
+            "תעודת זהות לרישום בדואר",
+            "פרטי זיהוי הנדרשים בשירות המקוון"
+          ],
+          "steps": [
+            "בדקו אם נרשמתם לקופה בתהליך הקליטה בנמל התעופה.",
+            "אם לא, השתמשו בסניף דואר מאושר או בשירות המקוון כשיהיה זמין.",
+            "שמרו את אישור הרישום.",
+            "אם חלפו יותר מ־90 יום מהעלייה, פנו לסניף הביטוח הלאומי."
+          ],
+          "notes": "הרישום המקוון זמין לאחר קליטת הנתונים. רישום בדואר עשוי להיות כרוך בתשלום; השירות המקוון ללא עלות."
+        },
+        "fr": {
+          "title": "S’inscrire à une caisse de santé",
+          "summary": "Un nouvel immigrant peut choisir une caisse pendant l’accueil initial, dans un bureau de poste s’il ne l’a pas fait, ou en ligne après l’intégration des données.",
+          "who": [
+            "Nouveaux immigrants devant choisir une caisse de santé israélienne"
+          ],
+          "documents": [
+            "Carte d’identité israélienne pour l’inscription à la poste",
+            "Données d’identification demandées en ligne"
+          ],
+          "steps": [
+            "Vérifiez si l’inscription a été faite à l’aéroport.",
+            "Sinon, utilisez un bureau de poste agréé ou le service en ligne lorsqu’il devient disponible.",
+            "Conservez l’attestation d’inscription.",
+            "Après plus de 90 jours, adressez-vous à une agence de l’assurance nationale."
+          ],
+          "notes": "L’inscription en ligne dépend de l’intégration des données. La poste peut facturer des frais; le service en ligne est gratuit."
+        },
+        "ko": {
+          "title": "쿠파트 홀림 등록하기",
+          "summary": "신규 올레는 초기 공항 정착 과정, 등록하지 못한 경우 우체국, 또는 정보가 비투아흐 레우미에 반영된 뒤 온라인으로 보건기금을 선택할 수 있습니다.",
+          "who": [
+            "이스라엘 쿠파트 홀림을 선택해야 하는 신규 올레"
+          ],
+          "documents": [
+            "우체국 등록 시 이스라엘 신분증",
+            "온라인 서비스에서 요구하는 신원확인 정보"
+          ],
+          "steps": [
+            "공항 정착 과정에서 이미 등록됐는지 확인합니다.",
+            "등록되지 않았다면 지정 우체국이나 이용 가능해진 온라인 서비스를 사용합니다.",
+            "등록 확인서를 보관합니다.",
+            "알리야 후 90일을 넘겼다면 가까운 비투아흐 레우미 지점에 문의합니다."
+          ],
+          "notes": "온라인 등록은 개인정보가 기관 시스템에 반영된 뒤 가능합니다. 우체국은 수수료가 있을 수 있고 온라인 등록은 무료입니다."
+        }
+      }
+    },
+    {
+      "id": "national-insurance-new-olim",
+      "category": "health",
+      "agency": {
+        "en": "National Insurance Institute",
+        "he": "המוסד לביטוח לאומי",
+        "fr": "Institut national d’assurance",
+        "ko": "비투아흐 레우미"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.btl.gov.il/English%20Homepage/%D7%9E%D7%99%D7%93%D7%A2%20%D7%9C%D7%A7%D7%94%D7%9C%20%D7%99%D7%A2%D7%93/NewOlim/Pages/default.aspx",
+      "translations": {
+        "en": {
+          "title": "Check National Insurance registration and new-Olim services",
+          "summary": "National Insurance provides a dedicated new-Olim information area covering benefits, HMO registration, claims, documents, debts, and bank details.",
+          "who": [
+            "New immigrants who need to confirm National Insurance registration or benefits"
+          ],
+          "documents": [
+            "Israeli ID details",
+            "Documents relevant to the specific benefit or request",
+            "Bank-account confirmation when updating payment details"
+          ],
+          "steps": [
+            "Open the official New Olim information area.",
+            "Choose the relevant benefit or action.",
+            "Use the personal service to send documents or update details.",
+            "Keep confirmation of every submission."
+          ],
+          "notes": "Contribution exemptions and benefit eligibility depend on income, status, dates, and personal circumstances."
+        },
+        "he": {
+          "title": "בדיקת רישום ושירותים לעולים בביטוח הלאומי",
+          "summary": "לביטוח הלאומי יש אזור מידע ייעודי לעולים הכולל קצבאות, רישום לקופה, תביעות, מסמכים, חובות ועדכון חשבון בנק.",
+          "who": [
+            "עולים חדשים שצריכים לוודא רישום או זכויות בביטוח הלאומי"
+          ],
+          "documents": [
+            "פרטי תעודת זהות",
+            "מסמכים הנוגעים לקצבה או לבקשה",
+            "אישור חשבון בנק בעת עדכון פרטי תשלום"
+          ],
+          "steps": [
+            "פתחו את אזור המידע הרשמי לעולים.",
+            "בחרו את הקצבה או הפעולה הרלוונטית.",
+            "השתמשו בשירות האישי לשליחת מסמכים או לעדכון פרטים.",
+            "שמרו אישור לכל פעולה."
+          ],
+          "notes": "פטורים מדמי ביטוח וזכאות לקצבאות תלויים בהכנסה, במעמד, בתאריכים ובנסיבות האישיות."
+        },
+        "fr": {
+          "title": "Vérifier l’inscription et les services de l’assurance nationale",
+          "summary": "L’assurance nationale propose une rubrique dédiée aux nouveaux immigrants: prestations, caisse de santé, demandes, documents, dettes et coordonnées bancaires.",
+          "who": [
+            "Nouveaux immigrants devant vérifier leur inscription ou leurs droits"
+          ],
+          "documents": [
+            "Données de la carte d’identité",
+            "Pièces liées à la prestation ou demande concernée",
+            "Attestation bancaire pour une modification de paiement"
+          ],
+          "steps": [
+            "Ouvrez la rubrique officielle pour les nouveaux immigrants.",
+            "Choisissez la prestation ou l’action concernée.",
+            "Utilisez le service personnel pour transmettre les documents.",
+            "Conservez chaque confirmation."
+          ],
+          "notes": "Les exonérations et prestations dépendent des revenus, du statut, des dates et de la situation personnelle."
+        },
+        "ko": {
+          "title": "비투아흐 레우미 등록과 올림 서비스 확인하기",
+          "summary": "비투아흐 레우미는 올림을 위한 별도 안내 영역에서 수당, 쿠파트 홀림, 신청, 서류 전송, 체납과 계좌정보 변경을 제공합니다.",
+          "who": [
+            "비투아흐 레우미 등록 또는 지원 상태를 확인해야 하는 신규 올레"
+          ],
+          "documents": [
+            "테우닷 제후트 정보",
+            "해당 수당이나 신청에 필요한 자료",
+            "지급계좌 수정 시 은행계좌 확인서"
+          ],
+          "steps": [
+            "공식 올림 안내 페이지를 엽니다.",
+            "관련 수당이나 업무를 선택합니다.",
+            "개인 서비스를 통해 서류를 보내거나 정보를 수정합니다.",
+            "각 제출의 접수 확인을 보관합니다."
+          ],
+          "notes": "보험료 면제와 수당 자격은 소득, 지위, 날짜와 개인 상황에 따라 달라집니다."
+        }
+      }
+    },
+    {
+      "id": "employment-service-registration",
+      "category": "employment",
+      "agency": {
+        "en": "Israeli Employment Service",
+        "he": "שירות התעסוקה הישראלי",
+        "fr": "Service israélien de l’emploi",
+        "ko": "이스라엘 고용서비스"
+      },
+      "updatedAt": "2026-07-27",
+      "source": "https://www.gov.il/en/service/register_to_employment_services",
+      "translations": {
+        "en": {
+          "title": "Register with the Israeli Employment Service",
+          "summary": "After employment ends, eligible residents can register online, open an account, register with the local office, and schedule an appointment.",
+          "who": [
+            "Israeli residents with an Israeli ID whose employment relationship has ended"
+          ],
+          "documents": [
+            "Israeli ID number",
+            "ID issue date"
+          ],
+          "steps": [
+            "Create an account on the Employment Service website.",
+            "Complete initial registration with the local employment office.",
+            "Schedule and attend the required appointment.",
+            "If seeking unemployment benefit, submit a separate claim to National Insurance."
+          ],
+          "notes": "Online registration does not replace attendance at required appointments. The official form is provided in Hebrew."
+        },
+        "he": {
+          "title": "רישום בשירות התעסוקה",
+          "summary": "לאחר סיום יחסי העבודה, תושבים זכאים יכולים להירשם באתר, לפתוח חשבון, להירשם בלשכה המקומית ולקבוע תור.",
+          "who": [
+            "תושבי ישראל בעלי תעודת זהות שיחסי העבודה שלהם הסתיימו"
+          ],
+          "documents": [
+            "מספר תעודת זהות",
+            "תאריך הנפקת תעודת הזהות"
+          ],
+          "steps": [
+            "פתחו חשבון באתר שירות התעסוקה.",
+            "השלימו רישום ראשוני בלשכה המקומית.",
+            "קבעו והגיעו לתור שנדרש.",
+            "אם מבקשים דמי אבטלה, הגישו תביעה נפרדת לביטוח הלאומי."
+          ],
+          "notes": "הרישום המקוון אינו מחליף התייצבות בתורים שנקבעו."
+        },
+        "fr": {
+          "title": "S’inscrire au Service israélien de l’emploi",
+          "summary": "Après la fin d’un emploi, les résidents admissibles peuvent créer un compte, s’inscrire auprès du bureau local et prendre rendez-vous.",
+          "who": [
+            "Résidents israéliens possédant une carte d’identité et dont la relation de travail a pris fin"
+          ],
+          "documents": [
+            "Numéro de carte d’identité",
+            "Date de délivrance de la carte"
+          ],
+          "steps": [
+            "Créez un compte sur le site du Service de l’emploi.",
+            "Effectuez l’inscription initiale auprès du bureau local.",
+            "Prenez et respectez les rendez-vous requis.",
+            "Pour l’allocation chômage, déposez séparément une demande auprès de l’assurance nationale."
+          ],
+          "notes": "L’inscription en ligne ne remplace pas la présence aux rendez-vous obligatoires. Le formulaire officiel est en hébreu."
+        },
+        "ko": {
+          "title": "이스라엘 고용서비스에 등록하기",
+          "summary": "고용관계가 끝난 이스라엘 거주자는 온라인 계정을 만들고 지역 고용사무소에 초기 등록한 뒤 방문 예약을 할 수 있습니다.",
+          "who": [
+            "이스라엘 신분증이 있고 고용관계가 종료된 이스라엘 거주자"
+          ],
+          "documents": [
+            "테우닷 제후트 번호",
+            "신분증 발급일"
+          ],
+          "steps": [
+            "고용서비스 웹사이트에 계정을 만듭니다.",
+            "거주지 관할 고용사무소에 초기 등록합니다.",
+            "필요한 방문 예약을 하고 정해진 일정에 출석합니다.",
+            "실업급여를 원하면 비투아흐 레우미에 별도 청구서를 제출합니다."
+          ],
+          "notes": "온라인 등록만으로 방문 의무가 없어지는 것은 아닙니다. 공식 양식은 히브리어로 제공됩니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Oleh Document Helper",
+  "short_name": "Oleh Helper",
+  "description": "Multilingual guidance for Israeli public administration procedures and documents.",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fbfc",
+  "theme_color": "#0b4f6c",
+  "lang": "en",
+  "dir": "auto",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

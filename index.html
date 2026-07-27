@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b4f6c">
+  <meta name="description" content="Clear multilingual guidance for Israeli public administration procedures and documents.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./app.css">
+  <title>Oleh Document Helper</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="brand-wrap">
+      <a class="brand" href="#home" aria-label="Oleh Document Helper home">
+        <span class="brand-mark" aria-hidden="true">OD</span>
+        <span>
+          <strong>Oleh Document Helper</strong>
+          <small data-i18n="brandTagline">Israeli administration, made clearer</small>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <label class="language-select">
+          <span class="sr-only" data-i18n="chooseLanguage">Choose language</span>
+          <select id="languageSelect" aria-label="Choose language">
+            <option value="en">English</option>
+            <option value="he">עברית</option>
+            <option value="fr">Français</option>
+            <option value="ko">한국어</option>
+          </select>
+        </label>
+        <button id="installButton" class="button button-secondary" hidden data-i18n="installApp">Install app</button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="bottom-nav" aria-label="Primary navigation">
+    <a href="#home" data-nav="home"><span aria-hidden="true">⌂</span><span data-i18n="navHome">Home</span></a>
+    <a href="#procedures" data-nav="procedures"><span aria-hidden="true">▦</span><span data-i18n="navProcedures">Procedures</span></a>
+    <a href="#analyzer" data-nav="analyzer"><span aria-hidden="true">⌕</span><span data-i18n="navAnalyzer">Document analyzer</span></a>
+    <a href="#favorites" data-nav="favorites"><span aria-hidden="true">☆</span><span data-i18n="navFavorites">Saved</span></a>
+  </nav>
+
+  <main id="main">
+    <section id="homeView" class="view">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">For new immigrants and returning residents</p>
+          <h1 data-i18n="heroTitle">Understand the process. Prepare the right documents. Know what to do next.</h1>
+          <p class="hero-text" data-i18n="heroText">
+            Read clear cards about Israeli public services, required documents, steps, costs, and official links.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#procedures" data-i18n="browseProcedures">Browse procedures</a>
+            <a class="button button-ghost" href="#analyzer" data-i18n="analyzeDocument">Analyze a document</a>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="Service summary">
+          <div><strong>4</strong><span data-i18n="languages">languages</span></div>
+          <div><strong id="procedureCount">0</strong><span data-i18n="verifiedCards">starter cards</span></div>
+          <div><strong>100%</strong><span data-i18n="officialSources">official-source links</span></div>
+        </div>
+      </div>
+
+      <section class="section-block">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow" data-i18n="startHere">Start here</p>
+            <h2 data-i18n="popularProcedures">Important first procedures</h2>
+          </div>
+          <a href="#procedures" class="text-link" data-i18n="viewAll">View all</a>
+        </div>
+        <div id="featuredGrid" class="card-grid"></div>
+      </section>
+
+      <section class="trust-panel">
+        <div>
+          <h2 data-i18n="trustTitle">Clear guidance, not a government decision</h2>
+          <p data-i18n="trustText">
+            Every card links to an official source and shows when it was last checked. Final eligibility and decisions remain with the relevant authority.
+          </p>
+        </div>
+        <span class="trust-badge" data-i18n="independentService">Independent information service</span>
+      </section>
+    </section>
+
+    <section id="proceduresView" class="view" hidden>
+      <div class="page-heading">
+        <p class="eyebrow" data-i18n="knowledgeBase">Knowledge base</p>
+        <h1 data-i18n="proceduresTitle">Israeli administration procedures</h1>
+        <p data-i18n="proceduresIntro">Search by a task, document, benefit, or government authority.</p>
+      </div>
+
+      <div class="search-panel">
+        <label for="procedureSearch" class="sr-only" data-i18n="searchLabel">Search procedures</label>
+        <input id="procedureSearch" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder" placeholder="Search: ID card, health fund, absorption basket…">
+        <div id="categoryFilters" class="chip-row" aria-label="Categories"></div>
+      </div>
+
+      <div class="results-meta">
+        <span id="resultsCount"></span>
+        <button id="clearFilters" class="text-button" data-i18n="clearFilters">Clear filters</button>
+      </div>
+      <div id="procedureGrid" class="card-grid"></div>
+      <div id="emptyState" class="empty-state" hidden>
+        <strong data-i18n="noResultsTitle">No matching procedure found</strong>
+        <p data-i18n="noResultsText">Try a different word or clear the category filter.</p>
+      </div>
+    </section>
+
+    <section id="analyzerView" class="view" hidden>
+      <div class="page-heading">
+        <p class="eyebrow" data-i18n="nextModule">Next module</p>
+        <h1 data-i18n="analyzerTitle">Document analyzer</h1>
+        <p data-i18n="analyzerIntro">
+          The production version will identify the authority, document type, dates, required actions, and matching procedure cards.
+        </p>
+      </div>
+
+      <div class="analyzer-layout">
+        <section class="upload-card">
+          <h2 data-i18n="uploadTitle">Upload a PDF or photo</h2>
+          <p data-i18n="uploadPrivacy">For this first build, files stay in your browser and are not sent to a server.</p>
+          <label class="drop-zone" for="documentInput">
+            <span class="drop-icon" aria-hidden="true">⇧</span>
+            <strong data-i18n="chooseFile">Choose a file</strong>
+            <span data-i18n="fileTypes">PDF, JPG, or PNG</span>
+            <input id="documentInput" type="file" accept=".pdf,image/jpeg,image/png">
+          </label>
+          <div id="fileInfo" class="file-info" hidden></div>
+          <button id="demoAnalysisButton" class="button button-primary" disabled data-i18n="runDemo">Show demo result</button>
+          <p class="fine-print" data-i18n="demoNotice">Demo only: this version does not read the document yet.</p>
+        </section>
+
+        <section id="demoResult" class="analysis-result" hidden aria-live="polite">
+          <div class="result-header">
+            <span class="status-pill status-medium" data-i18n="demo">Demo</span>
+            <span data-i18n="sampleResult">Sample analysis result</span>
+          </div>
+          <h2 data-i18n="sampleDocTitle">Possible request for additional documents</h2>
+          <dl class="fact-list">
+            <div><dt data-i18n="authority">Authority</dt><dd data-i18n="sampleAuthority">National Insurance Institute</dd></div>
+            <div><dt data-i18n="importance">Importance</dt><dd data-i18n="high">High</dd></div>
+            <div><dt data-i18n="deadline">Deadline</dt><dd data-i18n="notDetected">Not detected in demo</dd></div>
+          </dl>
+          <h3 data-i18n="whatToDo">What to do</h3>
+          <ol>
+            <li data-i18n="demoAction1">Check the requested document name in the original letter.</li>
+            <li data-i18n="demoAction2">Open the matching official personal account.</li>
+            <li data-i18n="demoAction3">Keep the submission confirmation after uploading.</li>
+          </ol>
+          <a class="button button-secondary" href="#procedure/national-insurance-new-olim" data-i18n="openRelatedCard">Open related guidance card</a>
+        </section>
+      </div>
+    </section>
+
+    <section id="favoritesView" class="view" hidden>
+      <div class="page-heading">
+        <p class="eyebrow" data-i18n="yourList">Your list</p>
+        <h1 data-i18n="favoritesTitle">Saved procedures</h1>
+        <p data-i18n="favoritesIntro">Saved cards remain on this device.</p>
+      </div>
+      <div id="favoritesGrid" class="card-grid"></div>
+      <div id="favoritesEmpty" class="empty-state">
+        <strong data-i18n="noFavoritesTitle">No saved procedures yet</strong>
+        <p data-i18n="noFavoritesText">Use the star button on a procedure card to save it here.</p>
+      </div>
+    </section>
+
+    <section id="detailView" class="view" hidden>
+      <button id="backButton" class="back-button" type="button">← <span data-i18n="back">Back</span></button>
+      <article id="procedureDetail" class="procedure-detail"></article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Oleh Document Helper</strong> · <span data-i18n="footerText">Independent multilingual guidance for Israeli public administration.</span></p>
+    <p class="fine-print" data-i18n="disclaimer">This is not a government authority, law office, accounting office, or eligibility decision service.</p>
+  </footer>
+
+  <template id="procedureCardTemplate">
+    <article class="procedure-card">
+      <div class="card-topline">
+        <span class="category-badge"></span>
+        <button class="favorite-button" type="button" aria-label="Save procedure">☆</button>
+      </div>
+      <h3></h3>
+      <p class="card-summary"></p>
+      <div class="card-meta">
+        <span class="agency-name"></span>
+        <span class="steps-count"></span>
+      </div>
+      <a class="card-link" href="#"><span data-i18n="openGuide">Open guide</span> →</a>
+    </article>
+  </template>
+
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
