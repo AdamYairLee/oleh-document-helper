@@ -1,4 +1,4 @@
-const CACHE_NAME = "oleh-document-helper-v1";
+const CACHE_NAME = "oleh-document-helper-v2";
 const APP_SHELL = [
   "./",
   "./index.html",

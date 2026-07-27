@@ -5,7 +5,10 @@ const LANGUAGE_KEY = "odh-language";
 
 let procedures = [];
 let translations = {};
-let language = localStorage.getItem(LANGUAGE_KEY) || detectLanguage();
+const requestedLanguage = new URLSearchParams(location.search).get("lang");
+let language = SUPPORTED_LANGUAGES.includes(requestedLanguage)
+  ? requestedLanguage
+  : (localStorage.getItem(LANGUAGE_KEY) || detectLanguage());
 let activeCategory = "all";
 let searchTerm = "";
 let deferredInstallPrompt = null;
@@ -14,6 +17,7 @@ let previousHash = "#home";
 const els = {
   languageSelect: document.querySelector("#languageSelect"),
   installButton: document.querySelector("#installButton"),
+  shareButton: document.querySelector("#shareButton"),
   featuredGrid: document.querySelector("#featuredGrid"),
   procedureGrid: document.querySelector("#procedureGrid"),
   favoritesGrid: document.querySelector("#favoritesGrid"),
@@ -29,7 +33,8 @@ const els = {
   demoAnalysisButton: document.querySelector("#demoAnalysisButton"),
   demoResult: document.querySelector("#demoResult"),
   detail: document.querySelector("#procedureDetail"),
-  backButton: document.querySelector("#backButton")
+  backButton: document.querySelector("#backButton"),
+  toast: document.querySelector("#toast")
 };
 
 boot();
@@ -62,6 +67,9 @@ function t(key) {
 function setLanguage(nextLanguage) {
   language = SUPPORTED_LANGUAGES.includes(nextLanguage) ? nextLanguage : "en";
   localStorage.setItem(LANGUAGE_KEY, language);
+  const localizedUrl = new URL(location.href);
+  localizedUrl.searchParams.set("lang", language);
+  history.replaceState({}, "", `${localizedUrl.pathname}?${localizedUrl.searchParams.toString()}${location.hash}`);
   document.documentElement.lang = language;
   document.documentElement.dir = RTL_LANGUAGES.has(language) ? "rtl" : "ltr";
   els.languageSelect.value = language;
@@ -83,6 +91,7 @@ function setLanguage(nextLanguage) {
 
 function bindEvents() {
   els.languageSelect.addEventListener("change", event => setLanguage(event.target.value));
+  els.shareButton.addEventListener("click", () => shareCurrentPage());
   els.procedureSearch.addEventListener("input", event => {
     searchTerm = event.target.value.trim().toLocaleLowerCase(language);
     renderProcedures();
@@ -238,6 +247,11 @@ function renderDetail(procedure) {
         <span class="meta-pill">${item.steps.length} ${escapeHtml(item.steps.length === 1 ? t("step") : t("steps"))}</span>
         <span class="meta-pill">${escapeHtml(t("lastChecked"))}: ${escapeHtml(date)}</span>
       </div>
+      <div class="detail-actions" aria-label="Guide actions">
+        <button id="printGuideButton" class="button button-secondary" type="button">${escapeHtml(t("printGuide"))}</button>
+        <button id="copyChecklistButton" class="button button-secondary" type="button">${escapeHtml(t("copyChecklist"))}</button>
+        <button id="shareGuideButton" class="button button-ghost" type="button">${escapeHtml(t("shareGuide"))}</button>
+      </div>
     </header>
     <div class="detail-grid">
       <div>
@@ -268,6 +282,74 @@ function renderDetail(procedure) {
       </aside>
     </div>
   `;
+
+  document.querySelector("#printGuideButton")?.addEventListener("click", () => window.print());
+  document.querySelector("#copyChecklistButton")?.addEventListener("click", () => copyChecklist(procedure));
+  document.querySelector("#shareGuideButton")?.addEventListener("click", () => shareCurrentPage(procedure));
+}
+
+async function copyChecklist(procedure) {
+  const item = localized(procedure);
+  const agency = procedure.agency[language] || procedure.agency.en;
+  const text = [
+    item.title,
+    `${t("authority")}: ${agency}`,
+    "",
+    t("documentsNeeded"),
+    ...item.documents.map(value => `□ ${value}`),
+    "",
+    t("procedureSteps"),
+    ...item.steps.map((value, index) => `${index + 1}. ${value}`),
+    "",
+    `${t("officialReference")}: ${procedure.source}`
+  ].join("\n");
+
+  try {
+    await navigator.clipboard.writeText(text);
+    showToast(t("checklistCopied"));
+  } catch {
+    showToast(t("copyFailed"));
+  }
+}
+
+async function shareCurrentPage(procedure = null) {
+  const url = new URL(location.href);
+  url.searchParams.set("lang", language);
+  if (procedure) url.hash = `procedure/${procedure.id}`;
+
+  const item = procedure ? localized(procedure) : null;
+  const shareData = {
+    title: item?.title || "Oleh Document Helper",
+    text: item?.summary || t("shareDescription"),
+    url: url.toString()
+  };
+
+  if (navigator.share) {
+    try {
+      await navigator.share(shareData);
+      return;
+    } catch (error) {
+      if (error?.name === "AbortError") return;
+    }
+  }
+
+  try {
+    await navigator.clipboard.writeText(shareData.url);
+    showToast(t("linkCopied"));
+  } catch {
+    showToast(t("copyFailed"));
+  }
+}
+
+let toastTimer;
+function showToast(message) {
+  if (!els.toast) return;
+  clearTimeout(toastTimer);
+  els.toast.textContent = message;
+  els.toast.hidden = false;
+  toastTimer = setTimeout(() => {
+    els.toast.hidden = true;
+  }, 2600);
 }
 
 function handleFile(event) {

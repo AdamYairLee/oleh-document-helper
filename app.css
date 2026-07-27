@@ -232,3 +232,36 @@ h1, h2, h3 { text-wrap: balance; }
 html[dir="rtl"] body { text-align: right; }
 html[dir="rtl"] .back-button { direction: rtl; }
 html[dir="rtl"] .card-link { direction: rtl; }
+
+
+/* v0.2 sharing, onboarding, and printable guide features */
+.how-section { margin-top: 10px; }
+.how-card { min-height: 220px; }
+.how-number {
+  width: 42px; height: 42px; display: grid; place-items: center;
+  border-radius: 14px; background: var(--primary); color: #fff;
+  font-size: 1.15rem; font-weight: 850;
+}
+.detail-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.toast {
+  position: fixed; z-index: 80; left: 50%; bottom: 28px; transform: translateX(-50%);
+  max-width: min(460px, calc(100% - 32px)); padding: 13px 18px;
+  border-radius: 13px; background: var(--ink); color: #fff; box-shadow: var(--shadow);
+  text-align: center; font-weight: 750;
+}
+@media (max-width: 640px) {
+  .header-actions { gap: 6px; }
+  .header-actions #shareButton { min-height: 40px; padding: 0 12px; font-size: .82rem; }
+  .detail-actions .button { width: 100%; }
+  .toast { bottom: 86px; }
+}
+@media print {
+  .site-header, .bottom-nav, .site-footer, .back-button, .detail-actions { display: none !important; }
+  body { background: #fff !important; padding: 0 !important; }
+  main { width: 100% !important; }
+  .view { padding: 0 !important; }
+  #detailView { display: block !important; }
+  .procedure-detail { border: 0 !important; box-shadow: none !important; padding: 0 !important; }
+  .detail-grid { grid-template-columns: 1fr !important; }
+  a { color: #000 !important; text-decoration: underline; }
+}
